@@ -13,6 +13,7 @@ import Testimonials from './Testimonials';
 import { usePageMotion } from './Motion';
 
 const asset = (node, name) => '/assets/' + assets[node][name];
+const ArrowIcon = ({ className = 'button-arrow', alt = '' }) => <img className={className} src={asset('228:6131', 'imgClarityArrowLine')} alt={alt} aria-hidden={alt ? undefined : true} />;
 const links = [['Features', 'features'], ['How it works', 'how-it-works'], ['Testimonials', 'testimonials'], ['FAQ', 'faq']];
 const features = [
   { name: 'Groups', title: 'See every goal move forward.', text: 'Create a contribution group, invite your people and see the target, members and next due date in one place.', bullets: ['Group targets and live progress', 'Member contributions in view'], node: '475:14', pattern: 'imgSquigglePatternGroups' },
@@ -47,7 +48,7 @@ const faqs = [
   ['When can I download Fundora?', 'Fundora is coming soon. App download links will be added when it launches.'],
 ];
 function Button({ children = 'How it works', href = '#how-it-works', outline = false, arrow = false, className = '' }) {
-  return <a className={`button ${outline ? 'outline' : ''} ${className}`} href={href}>{children}{arrow && <img className="button-arrow" src={asset('228:6131', 'imgClarityArrowLine')} alt="" />}</a>;
+  return <a className={`button ${outline ? 'outline' : ''} ${className}`} href={href}>{children}{arrow && <ArrowIcon />}</a>;
 }
 function Header() {
   const [open, setOpen] = useState(false);
@@ -65,7 +66,7 @@ function Header() {
     <nav className="desktop-nav" aria-label="Main navigation">{links.map(([text, id]) => <a href={`#${id}`} key={id}>{text}</a>)}</nav>
     <Button className="header-cta" arrow />
     <button className="menu-button" ref={menuButton} aria-expanded={open} aria-controls="mobile-nav" onClick={() => setOpen(!open)}>{open ? 'Close −' : 'Menu +'}</button>
-    <nav id="mobile-nav" ref={nav} className="mobile-nav" aria-label="Mobile navigation" hidden={!open}>{links.map(([text, id]) => <a href={`#${id}`} key={id} onClick={() => setOpen(false)}>{text}<span aria-hidden="true">↗</span></a>)}</nav>
+    <nav id="mobile-nav" ref={nav} className="mobile-nav" aria-label="Mobile navigation" hidden={!open}>{links.map(([text, id]) => <a href={`#${id}`} key={id} onClick={() => setOpen(false)}>{text}<ArrowIcon className="nav-link-arrow" /></a>)}</nav>
   </header>;
 }
 function App() {
@@ -75,12 +76,12 @@ function App() {
       <picture className="hero-pattern"><source media="(max-width: 1000px)" srcSet={asset('491:14', 'imgVector29')} /><img src={asset('228:6131', 'imgVector29')} alt="" /></picture>
       <img className="hero-pattern-bottom" src={asset('228:6131', 'imgVector29')} alt="" />
       <Header />
-      <div className="hero-copy"><h1 id="hero-title">Save <em>smarter</em><br />with your people.</h1><p>Fundora keeps your group savings transparent, timely, and easy to manage.</p><div className="hero-actions"><Button arrow /><Button href="#features" outline><span className="desktop-label">Explore features</span><span className="mobile-label">Features</span></Button></div></div>
+      <div className="hero-copy"><h1 id="hero-title">Save <em>smarter</em><br />with your people.</h1><p>Fundora keeps your group savings transparent, timely, and easy to manage.</p><div className="hero-actions"><Button arrow /><Button href="#features" outline>Explore features</Button></div></div>
       <img className="hero-phones" src={asset('228:6131', 'imgGroup4273188641')} alt="Fundora app showing contribution groups, your wallet, and a successfully created group" fetchPriority="high" />
     </section>
     <section className="overview container" aria-labelledby="overview-title"><h2 id="overview-title">Everything you need to achieve your group savings</h2><div className="overview-grid">{overview.map(([title, text, icon, mobileIcon, pattern], index) => <article className={`overview-card card-${index}`} key={title}>
       <picture className="overview-pattern"><source media="(max-width: 1000px)" srcSet={asset('491:39', 'imgVector31')} /><img src={asset('249:302', pattern)} alt="" loading="lazy" /></picture>
-      <div className="overview-title"><picture className="isocon"><source media="(max-width: 1000px)" srcSet={asset('491:39', mobileIcon)} /><img src={asset('249:302', icon)} alt="" loading="lazy" /></picture><h3>{title}</h3></div><p>{text}</p><Button className="white-button">Explore steps <span aria-hidden="true">↗</span></Button>
+      <div className="overview-title"><picture className="isocon"><source media="(max-width: 1000px)" srcSet={asset('491:39', mobileIcon)} /><img src={asset('249:302', icon)} alt="" loading="lazy" /></picture><h3>{title}</h3></div><p>{text}</p><Button className="white-button" arrow>Explore steps</Button>
     </article>)}</div></section>
     <section id="features" className="features container" aria-labelledby="features-title"><h2 id="features-title" className="features-title">Key <span className="desktop-label">Features</span><span className="mobile-label">features</span></h2><div className="feature-list">{features.map(feature => <article className={`feature feature-${feature.name.toLowerCase()}`} key={feature.name}>
       <img className="feature-pattern" src={asset(feature.node, feature.pattern)} alt="" loading="lazy" />
@@ -90,7 +91,7 @@ function App() {
     <section id="how-it-works" className="how-it-works container" aria-labelledby="how-title"><div className="section-intro"><p className="eyebrow">HOW FUNDORA WORKS</p><h2 id="how-title">One goal. Everyone in sync.</h2><p>A simple flow from the first invite to every contribution.</p></div><div className="step-grid">{steps.map(([title, text], index) => <article className={`step step-${index}`} key={title}><picture className="step-pattern"><source media="(max-width: 1000px)" srcSet={asset('493:14', 'imgVector31')} /><img src={asset('482:14', 'imgSquigglePatternStep')} alt="" loading="lazy" /></picture><span className="step-number">0{index + 1}</span><h3>{title}</h3><p>{text}</p></article>)}</div></section>
     <Testimonials quotes={quotes} />
     <section id="faq" className="faq container" aria-labelledby="faq-title"><h2 id="faq-title">Good questions. Clear answers.</h2><p className="faq-intro">A few things to know before your circle gets started.</p><div className="faq-grid">{faqs.map(([question, answer]) => <article key={question}><h3>{question}</h3><p>{answer}</p></article>)}</div></section>
-    <section className="cta container" aria-labelledby="cta-title"><img className="cta-pattern cta-left" src={asset('475:476', 'imgSquigglePatternCta1')} alt="" loading="lazy" /><picture className="cta-pattern cta-right"><source media="(max-width: 1000px)" srcSet={asset('493:74', 'imgVector31')} /><img src={asset('475:476', 'imgSquigglePatternCta')} alt="" loading="lazy" /></picture><h2 id="cta-title">Fundora is coming soon.</h2><p>Explore how it works today. App download will be available at launch.</p><Button>How it works ↗</Button></section>
-  </main><footer className="footer"><picture className="footer-pattern"><source media="(max-width: 1000px)" srcSet={asset('493:81', 'imgVector31')} /><img src={asset('484:21', 'imgSquigglePatternFooter')} alt="" loading="lazy" /></picture><div className="footer-inner"><div className="footer-signoff"><h2>Good things grow<br /><em>together.</em></h2><p>Your people. Your plan.<br />One goal at a time.</p></div><div className="footer-bottom"><a className="footer-brand" href="#top">Fundora</a><nav aria-label="Footer navigation">{links.filter(([, id]) => id !== 'faq').map(([text, id]) => <a href={`#${id}`} key={id}>{text}</a>)}<a className="back-top" href="#top">Back to top ↑</a><a className="footer-faq" href="#faq">FAQ</a></nav><p className="copyright">© 2026 Fundora</p></div><p className="attribution">Icons: <a href="https://www.isocons.app/" target="_blank" rel="noreferrer">Isocons</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a> · Colours adapted</p></div></footer></>;
+    <section className="cta container" aria-labelledby="cta-title"><img className="cta-pattern cta-left" src={asset('475:476', 'imgSquigglePatternCta1')} alt="" loading="lazy" /><picture className="cta-pattern cta-right"><source media="(max-width: 1000px)" srcSet={asset('493:74', 'imgVector31')} /><img src={asset('475:476', 'imgSquigglePatternCta')} alt="" loading="lazy" /></picture><h2 id="cta-title">Fundora is coming soon.</h2><p>Explore how it works today. App download will be available at launch.</p><Button arrow>How it works</Button></section>
+  </main><footer className="footer"><picture className="footer-pattern"><source media="(max-width: 1000px)" srcSet={asset('493:81', 'imgVector31')} /><img src={asset('484:21', 'imgSquigglePatternFooter')} alt="" loading="lazy" /></picture><div className="footer-inner"><div className="footer-signoff"><h2>Good things grow<br /><em>together.</em></h2><p>Your people. Your plan.<br />One goal at a time.</p></div><div className="footer-bottom"><a className="footer-brand" href="#top">Fundora</a><nav aria-label="Footer navigation">{links.filter(([, id]) => id !== 'faq').map(([text, id]) => <a href={`#${id}`} key={id}>{text}</a>)}<a className="back-top" href="#top">Back to top <ArrowIcon className="back-top-arrow" /></a><a className="footer-faq" href="#faq">FAQ</a></nav><p className="copyright">© 2026 Fundora</p></div><p className="attribution">Icons: <a href="https://www.isocons.app/" target="_blank" rel="noreferrer">Isocons</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a> · Colours adapted</p></div></footer></>;
 }
 createRoot(document.getElementById('root')).render(<React.StrictMode><App /></React.StrictMode>);

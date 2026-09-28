@@ -33,7 +33,6 @@ export default function Testimonials({ quotes }) {
   const [paused, setPaused] = useState(false);
   return <section className="testimonials" id="testimonials" aria-labelledby="testimonials-title">
     <div className="testimonial-heading"><h2 id="testimonials-title">Stories from the circle.</h2><p>Saving together, in their own words.</p>
-      <button className="marquee-toggle" aria-pressed={paused} onClick={() => setPaused(!paused)}>{paused ? 'Play stories' : 'Pause stories'}<span aria-hidden="true">{paused ? ' ▷' : ' Ⅱ'}</span></button>
     </div>
     <div className="marquee-rows">{[quotes.slice(0, 3), quotes.slice(3)].map((row, index) => <MarqueeRow quotes={row} index={index} paused={paused} key={index} />)}</div>
   </section>;
