@@ -65,8 +65,10 @@ function Header() {
     <a className="brand" href="#top" aria-label="Fundora home"><picture><source media="(max-width: 1000px)" srcSet={asset('491:14', 'imgGroup1')} /><img src={asset('228:6131', 'imgGroup1')} alt="" /></picture><span>Fundora</span></a>
     <nav className="desktop-nav" aria-label="Main navigation">{links.map(([text, id]) => <a href={`#${id}`} key={id}>{text}</a>)}</nav>
     <Button className="header-cta" arrow />
-    <button className="menu-button" ref={menuButton} aria-expanded={open} aria-controls="mobile-nav" onClick={() => setOpen(!open)}>{open ? 'Close −' : 'Menu +'}</button>
-    <nav id="mobile-nav" ref={nav} className="mobile-nav" aria-label="Mobile navigation" hidden={!open}>{links.map(([text, id]) => <a href={`#${id}`} key={id} onClick={() => setOpen(false)}>{text}<ArrowIcon className="nav-link-arrow" /></a>)}</nav>
+    <button className="menu-button" ref={menuButton} aria-expanded={open} aria-controls="mobile-nav" onClick={() => setOpen(!open)} aria-label={open ? 'Close navigation menu' : 'Open navigation menu'}>
+      <span className="hamburger-icon" aria-hidden="true"><span /><span /><span /></span>
+    </button>
+    <nav id="mobile-nav" ref={nav} className="mobile-nav" aria-label="Mobile navigation" hidden={!open}>{links.map(([text, id]) => <a href={`#${id}`} key={id} onClick={() => setOpen(false)}>{text}</a>)}</nav>
   </header>;
 }
 function App() {
