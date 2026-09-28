@@ -1,0 +1,52 @@
+import assert from 'node:assert/strict';
+import { resolve } from 'node:path';
+process.env.PLAYWRIGHT_BROWSERS_PATH ||= resolve('.browser-cache');
+const { chromium } = await import('@playwright/test');
+const browser = await chromium.launch({ headless: true });
+try {
+  for (const [width, height] of [[1440, 1000], [390, 844], [390, 600]]) {
+    const page = await browser.newPage({ viewport: { width, height }, reducedMotion: 'no-preference' });
+    const errors = [];
+    page.on('pageerror', error => errors.push(error.message));
+    await page.goto('http://127.0.0.1:5173', { waitUntil: 'networkidle' });
+    await page.evaluate(() => document.fonts.ready);
+    await page.addStyleTag({ content: 'html { scroll-behavior: auto !important; }' });
+    const track = page.locator('.marquee-track').first();
+    await page.locator('#testimonials').scrollIntoViewIfNeeded();
+    await page.mouse.move(0, 0);
+    const x = () => track.evaluate(el => new DOMMatrix(getComputedStyle(el).transform).m41);
+    const start = await x();
+    await page.waitForTimeout(200);
+    assert.ok(Math.abs(await x() - start) > 1, 'Marquee should move');
+    await page.getByRole('button', { name: 'Pause stories' }).click();
+    const paused = await x();
+    await page.waitForTimeout(200);
+    assert.ok(Math.abs(await x() - paused) < 1, 'Pause should stop the marquee');
+    await page.getByRole('button', { name: 'Play stories' }).click();
+    await page.mouse.move(0, 0);
+    await page.locator('.marquee-row').first().hover();
+    assert.equal(await track.evaluate(el => getComputedStyle(el).animationPlayState), 'paused');
+    await page.mouse.move(0, 0);
+    await page.locator('.marquee-row').first().focus();
+    assert.equal(await track.evaluate(el => getComputedStyle(el).animationPlayState), 'paused');
+    await page.locator('.marquee-row').first().evaluate(el => el.blur());
+    const cards = page.locator('.feature');
+    const target = await cards.nth(1).evaluate(el => el.getBoundingClientRect().top + scrollY - 180);
+    await page.evaluate(y => scrollTo(0, y), target);
+    await page.waitForTimeout(150);
+    const stack = await cards.first().evaluate(el => ({ position: getComputedStyle(el).position, scale: new DOMMatrix(getComputedStyle(el).transform).a, top: el.getBoundingClientRect().top, pin: parseFloat(getComputedStyle(el).top) }));
+    assert.equal(stack.position, 'sticky');
+    assert.ok(stack.scale < 1 && stack.scale >= .955, 'Covered card should scale back');
+    assert.ok(Math.abs(stack.top - stack.pin) < 2, 'First card should be pinned');
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await page.screenshot({ path: `test-results/stack-${width}-${height}.png` });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.waitForTimeout(100);
+    assert.equal(await track.evaluate(el => getComputedStyle(el).animationName), 'none');
+    assert.equal(await cards.first().evaluate(el => getComputedStyle(el).position), 'relative');
+    assert.equal(await page.locator('.reveal').count(), 0);
+    assert.deepEqual(errors, []);
+    await page.close();
+  }
+  console.log('Passed: live marquee, pause/play, hover/focus pause, sticky stacking, short mobile screens, and reduced-motion changes.');
+} finally { await browser.close(); }

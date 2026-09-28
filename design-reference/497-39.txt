@@ -1,0 +1,62 @@
+﻿export default function MobileFaq() {
+  return (
+    <div className="[word-break:break-word] bg-white content-stretch flex flex-col gap-[18px] items-start pb-[24px] pt-[48px] px-[24px] relative size-full" data-node-id="497:39" data-name="Mobile / FAQ">
+      <div className="font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[0] relative shrink-0 text-[#05211c] text-[32px] w-full" data-node-id="497:40">
+        <p className="leading-[1.3] mb-0">Good questions.</p>
+        <p className="leading-[1.3]">Clear answers.</p>
+      </div>
+      <p className="font-['Geist:Regular'] font-normal leading-[1.3] relative shrink-0 text-[#4d6159] text-[16px] w-full" data-node-id="497:41">
+        A few things to know before your circle gets started.
+      </p>
+      <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[12px] items-start leading-[1.3] overflow-clip pb-[12px] pt-[20px] relative shrink-0 w-full" data-node-id="497:42" data-name="FAQ / What can I use Fundora for?">
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[20px] w-full" data-node-id="497:43">
+          What can I use Fundora for?
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[16px] w-full" data-node-id="497:44">
+          Pool contributions with friends, family or groups towards a shared goal, such as a trip, wedding or group project.
+        </p>
+      </div>
+      <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[12px] items-start leading-[1.3] overflow-clip pb-[12px] pt-[20px] relative shrink-0 w-full" data-node-id="497:45" data-name="FAQ / How do I create a group?">
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[20px] w-full" data-node-id="497:46">
+          How do I create a group?
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[16px] w-full" data-node-id="497:47">
+          Create an account, add your group name, target and contribution details, then invite your people.
+        </p>
+      </div>
+      <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[12px] items-start leading-[1.3] overflow-clip pb-[12px] pt-[20px] relative shrink-0 w-full" data-node-id="497:48" data-name="FAQ / How can I invite members?">
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[20px] w-full" data-node-id="497:49">
+          How can I invite members?
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[16px] w-full" data-node-id="497:50">
+          Add people during group setup, or open Invite Members in the group details and enter an email or phone number.
+        </p>
+      </div>
+      <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[12px] items-start leading-[1.3] overflow-clip pb-[12px] pt-[20px] relative shrink-0 w-full" data-node-id="497:51" data-name="FAQ / How do I add money?">
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[20px] w-full" data-node-id="497:52">
+          How do I add money?
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[16px] w-full" data-node-id="497:53">
+          Fund your wallet using card payment or the bank transfer details shown in the app.
+        </p>
+      </div>
+      <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[12px] items-start leading-[1.3] overflow-clip pb-[12px] pt-[20px] relative shrink-0 w-full" data-node-id="497:54" data-name="FAQ / Can I see who has contributed?">
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[20px] w-full" data-node-id="497:55">
+          Can I see who has contributed?
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[16px] w-full" data-node-id="497:56">
+          The group view shows member payment status. You can also review contributions in group activity and wallet transactions.
+        </p>
+      </div>
+      <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[12px] items-start leading-[1.3] overflow-clip pb-[12px] pt-[20px] relative shrink-0 w-full" data-node-id="497:57" data-name="FAQ / When can I download Fundora?">
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[20px] w-full" data-node-id="497:58">
+          When can I download Fundora?
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[16px] w-full" data-node-id="497:59">
+          Fundora is coming soon. App download links will be added when it launches.
+        </p>
+      </div>
+    </div>
+  );
+}
+

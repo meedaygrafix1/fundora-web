@@ -1,0 +1,69 @@
+﻿export default function FaqDesktop() {
+  return (
+    <div className="[word-break:break-word] bg-white content-stretch flex flex-col gap-[32px] items-start leading-[1.3] py-[32px] relative size-full" data-node-id="497:14" data-name="FAQ / Desktop">
+      <div className="content-stretch flex flex-col gap-[14px] items-start overflow-clip relative shrink-0 w-[1468px]" data-node-id="497:15" data-name="FAQ / Introduction">
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#05211c] text-[56px] w-[1468px]" data-node-id="497:16">
+          Good questions. Clear answers.
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[23px] w-[1468px]" data-node-id="497:17">
+          A few things to know before your circle gets started.
+        </p>
+      </div>
+      <div className="content-stretch flex gap-[68px] h-[190px] items-start overflow-clip relative shrink-0 w-[1468px]" data-node-id="497:18" data-name="FAQ / Row 1">
+        <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[15px] h-[190px] items-start overflow-clip pb-[16px] pt-[20px] relative shrink-0 w-[700px]" data-node-id="497:19" data-name="FAQ / What can I use Fundora for?">
+          <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[25px] w-[700px]" data-node-id="497:20">
+            What can I use Fundora for?
+          </p>
+          <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[20px] w-[700px]" data-node-id="497:21">
+            Pool contributions with friends, family or groups towards a shared goal, such as a trip, wedding or group project.
+          </p>
+        </div>
+        <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[15px] h-[190px] items-start overflow-clip pb-[16px] pt-[20px] relative shrink-0 w-[700px]" data-node-id="497:22" data-name="FAQ / How do I create a group?">
+          <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[25px] w-[700px]" data-node-id="497:23">
+            How do I create a group?
+          </p>
+          <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[20px] w-[700px]" data-node-id="497:24">
+            Create an account, add your group name, target and contribution details, then invite your people.
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[68px] h-[190px] items-start overflow-clip relative shrink-0 w-[1468px]" data-node-id="497:25" data-name="FAQ / Row 2">
+        <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[15px] h-[190px] items-start overflow-clip pb-[16px] pt-[20px] relative shrink-0 w-[700px]" data-node-id="497:26" data-name="FAQ / How can I invite members?">
+          <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[25px] w-[700px]" data-node-id="497:27">
+            How can I invite members?
+          </p>
+          <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[20px] w-[700px]" data-node-id="497:28">
+            Add people during group setup, or open Invite Members in the group details and enter an email or phone number.
+          </p>
+        </div>
+        <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[15px] h-[190px] items-start overflow-clip pb-[16px] pt-[20px] relative shrink-0 w-[700px]" data-node-id="497:29" data-name="FAQ / How do I add money?">
+          <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[25px] w-[700px]" data-node-id="497:30">
+            How do I add money?
+          </p>
+          <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[20px] w-[700px]" data-node-id="497:31">
+            Fund your wallet using card payment or the bank transfer details shown in the app.
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[68px] h-[190px] items-start overflow-clip relative shrink-0 w-[1468px]" data-node-id="497:32" data-name="FAQ / Row 3">
+        <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[15px] h-[190px] items-start overflow-clip pb-[16px] pt-[20px] relative shrink-0 w-[700px]" data-node-id="497:33" data-name="FAQ / Can I see who has contributed?">
+          <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[25px] w-[700px]" data-node-id="497:34">
+            Can I see who has contributed?
+          </p>
+          <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[20px] w-[700px]" data-node-id="497:35">
+            The group view shows member payment status. You can also review contributions in group activity and wallet transactions.
+          </p>
+        </div>
+        <div className="border-[#d1decc] border-solid border-t content-stretch flex flex-col gap-[15px] h-[190px] items-start overflow-clip pb-[16px] pt-[20px] relative shrink-0 w-[700px]" data-node-id="497:36" data-name="FAQ / When can I download Fundora?">
+          <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#024e44] text-[25px] w-[700px]" data-node-id="497:37">
+            When can I download Fundora?
+          </p>
+          <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[20px] w-[700px]" data-node-id="497:38">
+            Fundora is coming soon. App download links will be added when it launches.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+

@@ -1,0 +1,71 @@
+﻿const assetPathPrefix = "/assets";
+const imgSquigglePatternStep = `${assetPathPrefix}/89ddf.svg`;
+
+export default function HowItWorks() {
+  return (
+    <div className="content-stretch flex flex-col gap-[46px] items-center relative size-full" data-node-id="482:14" data-name="How it works">
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[14px] h-[156px] items-center leading-[1.25] overflow-clip relative shrink-0 text-center w-[1200px]" data-node-id="482:15" data-name="How it works / introduction">
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#024e44] text-[19px] w-[700px]" data-node-id="482:16">
+          HOW FUNDORA WORKS
+        </p>
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#05211c] text-[60px] w-[1200px]" data-node-id="482:17">
+          One goal. Everyone in sync.
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#52665c] text-[24px] w-[1200px]" data-node-id="482:18">
+          A simple flow from the first invite to every contribution.
+        </p>
+      </div>
+      <div className="content-stretch flex gap-[28px] h-[460px] items-start overflow-clip relative shrink-0 w-[1468px]" data-node-id="482:19" data-name="Three steps">
+        <div className="bg-[#def5c2] content-stretch flex flex-col gap-[26px] h-[460px] items-start overflow-clip pt-[50px] px-[48px] relative rounded-[24px] shrink-0 w-[470px]" data-node-id="482:20" data-name="Step 01">
+          <div className="absolute h-[166px] left-[-24px] top-[390px] w-[510px]" data-node-id="482:243" data-name="Squiggle pattern / step">
+            <div className="absolute inset-[-3.56%_0_-1.99%_-2%]">
+              <img alt="" className="block max-w-none size-full" src={imgSquigglePatternStep} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.25] relative shrink-0 text-[#a3d447] text-[65px] w-[350px]" data-node-id="482:21">
+            01
+          </p>
+          <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.25] relative shrink-0 text-[#05211c] text-[35px] w-[374px]" data-node-id="482:22">
+            Create your group
+          </p>
+          <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.25] relative shrink-0 text-[#52665c] text-[22px] w-[374px]" data-node-id="482:23">
+            Set a group name, target and contribution details so everyone knows the plan.
+          </p>
+        </div>
+        <div className="bg-[#e8fccc] content-stretch flex flex-col gap-[26px] h-[460px] items-start overflow-clip pt-[50px] px-[48px] relative rounded-[24px] shrink-0 w-[470px]" data-node-id="482:24" data-name="Step 02">
+          <div className="absolute h-[166px] left-[-24px] top-[398px] w-[510px]" data-node-id="482:244" data-name="Squiggle pattern / step">
+            <div className="absolute inset-[-3.56%_0_-1.99%_-2%]">
+              <img alt="" className="block max-w-none size-full" src={imgSquigglePatternStep} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.25] relative shrink-0 text-[#a3d447] text-[65px] w-[350px]" data-node-id="482:25">
+            02
+          </p>
+          <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.25] relative shrink-0 text-[#05211c] text-[35px] w-[374px]" data-node-id="482:26">
+            Invite your people
+          </p>
+          <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.25] relative shrink-0 text-[#52665c] text-[22px] w-[374px]" data-node-id="482:27">
+            Add members and bring them into the same contribution circle.
+          </p>
+        </div>
+        <div className="bg-[#ebf7d4] content-stretch flex flex-col gap-[26px] h-[460px] items-start overflow-clip pt-[50px] px-[48px] relative rounded-[24px] shrink-0 w-[470px]" data-node-id="482:28" data-name="Step 03">
+          <div className="absolute h-[166px] left-[-24px] top-[406px] w-[510px]" data-node-id="482:245" data-name="Squiggle pattern / step">
+            <div className="absolute inset-[-3.56%_0_-1.99%_-2%]">
+              <img alt="" className="block max-w-none size-full" src={imgSquigglePatternStep} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.25] relative shrink-0 text-[#a3d447] text-[65px] w-[350px]" data-node-id="482:29">
+            03
+          </p>
+          <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.25] relative shrink-0 text-[#05211c] text-[35px] w-[374px]" data-node-id="482:30">
+            Contribute and track
+          </p>
+          <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.25] relative shrink-0 text-[#52665c] text-[22px] w-[374px]" data-node-id="482:31">
+            See group progress, upcoming dues and activity as the goal moves forward.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+

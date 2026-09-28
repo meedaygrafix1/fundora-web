@@ -1,0 +1,77 @@
+﻿const assetPathPrefix = "/assets";
+const imgVector31 = `${assetPathPrefix}/b6e2f.svg`;
+
+export default function MobileFooter() {
+  return (
+    <div className="bg-[#e8fccc] content-stretch flex flex-col gap-[22px] items-start pb-[28px] pt-[38px] px-[24px] relative size-full" data-node-id="493:81" data-name="Mobile / Footer">
+      <div className="absolute h-[97.522px] left-[170px] top-[370px] w-[300px]" data-node-id="493:98">
+        <div className="absolute inset-[-6.11%_-0.11%_-9.29%_-3.66%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector31} />
+        </div>
+      </div>
+      <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[1.3] overflow-clip relative shrink-0 w-full" data-node-id="493:82" data-name="Footer / headline">
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#05211c] text-[36px] w-full" data-node-id="493:83">
+          Good things grow
+        </p>
+        <p className="font-['Instrument_Serif:Italic'] italic relative shrink-0 text-[#024e44] text-[60px] w-full" data-node-id="493:84">
+          together.
+        </p>
+      </div>
+      <div className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#024e44] text-[16px] w-[min-content]" data-node-id="493:85">
+        <p className="leading-[1.3] mb-0">Your people. Your plan.</p>
+        <p className="leading-[1.3]">One goal at a time.</p>
+      </div>
+      <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.3] min-w-full relative shrink-0 text-[#024e44] text-[25px] w-[min-content]" data-node-id="493:86">
+        Fundora
+      </p>
+      <div className="content-stretch cursor-pointer flex gap-[10px] h-[48px] items-start overflow-clip relative shrink-0 w-full" data-node-id="493:87" data-name="Footer / section links">
+        <button className="bg-[#e8fccc] content-stretch flex flex-[1_0_0] h-[48px] items-center justify-center min-w-px overflow-clip relative rounded-[24px]" data-node-id="493:88" data-name="Button / Features">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.3] min-w-px relative text-[#024e44] text-[16px] text-center" data-node-id="493:89">
+            Features
+          </p>
+        </button>
+        <button className="bg-[#e8fccc] content-stretch flex flex-[1_0_0] h-[48px] items-center justify-center min-w-px overflow-clip relative rounded-[24px]" data-node-id="493:90" data-name="Button / How it works">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.3] min-w-px relative text-[#024e44] text-[16px] text-center" data-node-id="493:91">
+            How it works
+          </p>
+        </button>
+      </div>
+      <div className="content-stretch cursor-pointer flex gap-[10px] h-[48px] items-start overflow-clip relative shrink-0 w-full" data-node-id="493:92" data-name="Footer / section links">
+        <button className="bg-[#e8fccc] content-stretch flex flex-[1_0_0] h-[48px] items-center justify-center min-w-px overflow-clip relative rounded-[24px]" data-node-id="493:93" data-name="Button / Testimonials">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.3] min-w-px relative text-[#024e44] text-[16px] text-center" data-node-id="493:94">
+            Testimonials
+          </p>
+        </button>
+        <button className="bg-[#e8fccc] content-stretch flex flex-[1_0_0] h-[48px] items-center justify-center min-w-px overflow-clip relative rounded-[24px]" data-node-id="493:95" data-name="Button / Back to top â†‘">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.3] min-w-px relative text-[#024e44] text-[16px] text-center" data-node-id="493:96">
+            Back to top â†‘
+          </p>
+        </button>
+      </div>
+      <button className="bg-[#e8fccc] content-stretch cursor-pointer flex h-[48px] items-center justify-center overflow-clip relative rounded-[24px] shrink-0 w-full" data-node-id="497:67" data-name="Button / FAQ">
+        <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.3] relative shrink-0 text-[#024e44] text-[16px] text-center w-[322px]" data-node-id="497:68">
+          FAQ
+        </p>
+      </button>
+      <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.3] min-w-full relative shrink-0 text-[#4d6159] text-[13px] w-[min-content]" data-node-id="493:97">
+        Â© 2026 Fundora
+      </p>
+      <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#024e44] text-[12px] w-[min-content]" data-node-id="501:110">
+        <span className="leading-[normal]">{`Icons: `}</span>
+        <a className="cursor-pointer leading-[normal]" href="https://www.isocons.app/" target="_blank">
+          <span href="https://www.isocons.app/" target="_blank">
+            Isocons
+          </span>
+        </a>
+        <span className="leading-[normal]">{` Â· `}</span>
+        <a className="cursor-pointer leading-[normal]" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+          <span href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+            CC BY 4.0
+          </span>
+        </a>
+        <span className="leading-[normal]">{` Â· Colours adapted`}</span>
+      </p>
+    </div>
+  );
+}
+

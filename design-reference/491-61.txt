@@ -1,0 +1,635 @@
+﻿const assetPathPrefix = "/assets";
+const imgImage = `${assetPathPrefix}/6c8ea.png`;
+const imgImage1 = `${assetPathPrefix}/63ee4.png`;
+const imgImage2 = `${assetPathPrefix}/b00ca.png`;
+const imgVector31 = `${assetPathPrefix}/0330d.svg`;
+const imgSolarHome2Outline = `${assetPathPrefix}/f7e1b.svg`;
+const imgGroup = `${assetPathPrefix}/12930.svg`;
+const imgGroup1 = `${assetPathPrefix}/c6ae1.svg`;
+const imgGroup2 = `${assetPathPrefix}/193d4.svg`;
+const imgMobileSignal = `${assetPathPrefix}/b14e8.svg`;
+const imgWifi = `${assetPathPrefix}/cea3e.svg`;
+const imgBattery = `${assetPathPrefix}/54a0e.svg`;
+const imgKeyboardBackspace = `${assetPathPrefix}/f3b64.svg`;
+
+export default function MobileGroups() {
+  return (
+    <div className="bg-[#fafaf0] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] size-full" data-node-id="491:61" data-name="Mobile / Groups">
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[15px] items-start leading-[1.3] overflow-clip px-[24px] py-[28px] relative shrink-0 w-full" data-node-id="491:62" data-name="Groups / copy">
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#024e44] text-[11px] w-full" data-node-id="491:63">
+          FUNDORA / GROUPS
+        </p>
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#05211c] text-[32px] w-full" data-node-id="491:64">
+          See every goal move forward.
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[16px] w-full" data-node-id="491:65">
+          Create a contribution group, invite your people and see the target, members and next due date in one place.
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#024e44] text-[14px] w-full whitespace-pre-wrap" data-node-id="491:66">{`â—  Group targets and live progress`}</p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#024e44] text-[14px] w-full whitespace-pre-wrap" data-node-id="491:67">{`â—  Member contributions in view`}</p>
+      </div>
+      <div className="h-[364px] overflow-clip relative shrink-0 w-full" data-node-id="491:68" data-name="Groups / phone area">
+        <div className="absolute h-[110.525px] left-[80px] top-[265px] w-[340px]" data-node-id="491:69">
+          <div className="absolute inset-[-5.38%_0_-7.21%_-3.19%]">
+            <img alt="" className="block max-w-none size-full" src={imgVector31} />
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute flex h-[613.253px] items-center justify-center left-[calc(50%-26.15px)] top-[22px] w-[344.075px]" data-node-id="491:70">
+          <div className="flex-none rotate-7">
+            <div className="bg-[#050609] h-[584.1px] overflow-clip relative rounded-[35.4px] shadow-[0px_15.34px_18.88px_0px_rgba(10,36,26,0.22)] w-[274.94px]" data-name="iPhone / Groups">
+              <div className="absolute bg-white h-[564.04px] left-[10.62px] overflow-clip rounded-[27.73px] top-[10.62px] w-[253.7px]" data-node-id="491:71" data-name="Fundora app screen / Groups">
+                <p className="[word-break:break-word] absolute font-['Space_Grotesk:Medium'] font-medium leading-[normal] left-[46.61px] text-[7.571px] text-white top-[277.3px] whitespace-nowrap" data-node-id="491:72">
+                  â€‹
+                </p>
+                <div className="absolute content-stretch flex flex-col h-[47.2px] items-start left-[18.88px] top-[60.18px] w-[164.61px]" data-node-id="491:73" data-name="Container">
+                  <div className="h-[31.436px] relative shrink-0 w-[164.551px]" data-node-id="491:74" data-name="Paragraph">
+                    <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                      <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[31.435px] left-0 text-[#024e44] text-[20.957px] top-[-0.32px] whitespace-nowrap" data-node-id="491:75">
+                        My Groups
+                      </p>
+                    </div>
+                  </div>
+                  <div className="h-[15.712px] relative shrink-0 w-[164.551px]" data-node-id="491:76" data-name="Paragraph">
+                    <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                      <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[15.718px] left-0 text-[#024e44] text-[10.478px] top-[-0.54px] whitespace-nowrap" data-node-id="491:77">
+                        Manage your contribution groups
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute bg-[#d1e76f] h-[26.537px] left-[14.27px] rounded-[5.9px] top-[113.87px] w-[83.622px]" data-node-id="491:78" data-name="Button">
+                  <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[12.39px] left-[11.8px] text-[#024e44] text-[8.26px] top-[7.17px] whitespace-nowrap" data-node-id="491:79">
+                    Create Group
+                  </p>
+                </div>
+                <div className="-translate-x-1/2 absolute h-[347.51px] left-[calc(50%-0.29px)] overflow-clip top-[158.12px] w-[223.61px]" data-node-id="491:80" data-name="Container">
+                  <div className="absolute bg-[#f5f6fa] content-stretch flex flex-col gap-[9.43px] h-[114.46px] items-start left-0 pl-[11.798px] pt-[11.798px] rounded-[9.44px] top-[-0.12px] w-[223.61px]" data-node-id="491:81" data-name="Container">
+                    <div className="h-[30.68px] relative shrink-0 w-[198.83px]" data-node-id="491:82" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-start justify-between relative size-full">
+                        <div className="h-[30.678px] relative shrink-0 w-[111.759px]" data-node-id="491:83" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[9.43px] items-center relative size-full">
+                            <div className="bg-[#e9ffc9] relative rounded-[14.75px] shrink-0 size-[29.5px]" data-node-id="491:84" data-name="Container">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-center relative size-full">
+                                <div className="h-[19.465px] relative shrink-0 w-[13.236px]" data-node-id="491:85" data-name="Paragraph">
+                                  <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                    <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[19.47px] left-0 text-[#024e44] text-[12.98px] top-[0.2px] whitespace-nowrap" data-node-id="491:86">
+                                      W
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="h-[30.678px] relative shrink-0 w-[72.83px]" data-node-id="491:87" data-name="Container">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[2.357px] items-start relative size-full">
+                                <div className="h-[15.929px] relative shrink-0 w-[72.83px]" data-node-id="491:88" data-name="Paragraph">
+                                  <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                    <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[15.93px] left-0 text-[#23262f] text-[10.62px] top-[0.2px] whitespace-nowrap" data-node-id="491:89">
+                                      Wagmi
+                                    </p>
+                                  </div>
+                                </div>
+                                <div className="h-[12.392px] relative shrink-0 w-[72.83px]" data-node-id="491:90" data-name="Container">
+                                  <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[4.715px] items-center relative size-full">
+                                    <div className="h-[11.798px] relative shrink-0 w-[23.866px]" data-node-id="491:91" data-name="Container">
+                                      <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                        <div className="absolute content-stretch flex flex-col items-start left-0 rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:92" data-name="Container">
+                                          <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:93" data-name="Image">
+                                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage} />
+                                          </div>
+                                        </div>
+                                        <div className="absolute content-stretch flex flex-col items-start left-[6.03px] rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:94" data-name="Container">
+                                          <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:95" data-name="Image">
+                                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage1} />
+                                          </div>
+                                        </div>
+                                        <div className="absolute content-stretch flex flex-col items-start left-[12.07px] rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:96" data-name="Container">
+                                          <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:97" data-name="Image">
+                                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage2} />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div className="h-[12.392px] relative shrink-0 w-[44.249px]" data-node-id="491:98" data-name="Paragraph">
+                                      <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                        <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[12.39px] left-[-0.25px] text-[#969aa0] text-[8.26px] top-[0.13px] w-[53.1px]" data-node-id="491:99">
+                                          8 members
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="h-[25.953px] relative shrink-0 w-[49.256px]" data-node-id="491:100" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[1.179px] items-end relative size-full">
+                            <div className="h-[14.155px] relative shrink-0 w-[49.256px]" data-node-id="491:101" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[14.16px] left-0 text-[#024e44] text-[9.44px] top-[-0.49px] whitespace-nowrap" data-node-id="491:102">
+                                  â‚¦450,000
+                                </p>
+                              </div>
+                            </div>
+                            <div className="h-[10.619px] relative shrink-0 w-[21.433px]" data-node-id="491:103" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[10.62px] left-0 text-[#969aa0] text-[7.08px] top-[-0.49px] whitespace-nowrap" data-node-id="491:104">
+                                  Target
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="h-[20.65px] relative shrink-0 w-[198.83px]" data-node-id="491:105" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[3.536px] items-start relative size-full">
+                        <div className="h-[12.39px] relative shrink-0 w-full" data-node-id="491:106" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-start justify-between relative size-full">
+                            <div className="h-[12.392px] relative shrink-0 w-[104.687px]" data-node-id="491:107" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[12.39px] left-0 text-[#23262f] text-[8.26px] top-[0.1px] w-[105.02px]" data-node-id="491:108">
+                                  Your contribution: â‚¦45,333
+                                </p>
+                              </div>
+                            </div>
+                            <div className="h-[12.392px] relative shrink-0 w-[18.491px]" data-node-id="491:109" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[12.39px] left-0 text-[#90c841] text-[8.26px] top-[0.1px] w-[18.88px]" data-node-id="491:110">
+                                  65%
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="bg-[#e0e0e0] h-[4.72px] relative rounded-[5.9px] shrink-0 w-full" data-node-id="491:111" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pr-[57.28px] relative size-full">
+                            <div className="bg-[#90c841] h-[4.715px] relative rounded-[5.9px] shrink-0 w-full" data-node-id="491:112" data-name="Container" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="h-[20.65px] relative shrink-0 w-[198.83px]" data-node-id="491:113" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-between relative size-full">
+                        <div className="h-[11.495px] relative shrink-0 w-[79.534px]" data-node-id="491:114" data-name="Paragraph">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                            <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.505px] left-0 text-[#969aa0] text-[7.67px] top-[-0.49px] w-[79.65px]" data-node-id="491:115">
+                              Next due: Jun 15, 2025
+                            </p>
+                          </div>
+                        </div>
+                        <div className="bg-[#024e44] h-[20.924px] relative rounded-[4.72px] shrink-0 w-[58.567px]" data-node-id="491:116" data-name="Button">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                            <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[11.505px] left-[9.43px] text-[7.67px] text-white top-[4.23px] whitespace-nowrap" data-node-id="491:117">
+                              Contribute
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute bg-[#f5f6fa] content-stretch flex flex-col gap-[9.43px] h-[127.44px] items-start left-0 pl-[11.798px] pt-[11.798px] rounded-[9.44px] top-[123.78px] w-[223.61px]" data-node-id="491:118" data-name="Container">
+                    <div className="h-[43.071px] relative shrink-0 w-[163.643px]" data-node-id="491:119" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                        <div className="absolute content-stretch flex gap-[9.43px] h-[43.07px] items-center left-0 top-0 w-[131.57px]" data-node-id="491:120" data-name="Container">
+                          <div className="bg-[#e9ffc9] h-[29.5px] relative rounded-[14.75px] shrink-0 w-[27.391px]" data-node-id="491:121" data-name="Container">
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-center pr-[0.011px] relative size-full">
+                              <div className="h-[19.465px] relative shrink-0 w-[12.133px]" data-node-id="491:122" data-name="Paragraph">
+                                <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                  <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[19.47px] left-0 text-[#024e44] text-[12.98px] top-[0.2px] whitespace-nowrap" data-node-id="491:123">
+                                    JT
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="h-[43.071px] relative shrink-0 w-[70.267px]" data-node-id="491:124" data-name="Container">
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[2.357px] items-start relative size-full">
+                              <div className="h-[15.929px] relative shrink-0 w-[70.267px]" data-node-id="491:125" data-name="Paragraph">
+                                <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                  <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[15.93px] left-0 text-[#23262f] text-[10.62px] top-[0.2px] whitespace-nowrap" data-node-id="491:126">
+                                    Japan Trip
+                                  </p>
+                                </div>
+                              </div>
+                              <div className="h-[24.785px] relative shrink-0 w-[70.267px]" data-node-id="491:127" data-name="Container">
+                                <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[4.715px] items-center relative size-full">
+                                  <div className="h-[11.798px] relative shrink-0 w-[23.866px]" data-node-id="491:128" data-name="Container">
+                                    <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                      <div className="absolute content-stretch flex flex-col items-start left-0 rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:129" data-name="Container">
+                                        <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:130" data-name="Image">
+                                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage} />
+                                        </div>
+                                      </div>
+                                      <div className="absolute content-stretch flex flex-col items-start left-[6.03px] rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:131" data-name="Container">
+                                        <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:132" data-name="Image">
+                                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage1} />
+                                        </div>
+                                      </div>
+                                      <div className="absolute content-stretch flex flex-col items-start left-[12.07px] rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:133" data-name="Container">
+                                        <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:134" data-name="Image">
+                                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage2} />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div className="flex-[1_0_0] h-[24.785px] min-w-px relative" data-node-id="491:135" data-name="Paragraph">
+                                    <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                      <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[12.39px] left-0 text-[#969aa0] text-[8.26px] top-[0.1px] w-[37.76px]" data-node-id="491:136">
+                                        12 members
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="absolute content-stretch flex flex-col gap-[1.179px] h-[25.96px] items-end left-[131.57px] top-0 w-[69.62px]" data-node-id="491:137" data-name="Container">
+                          <div className="h-[14.155px] relative shrink-0 w-[56.555px]" data-node-id="491:138" data-name="Paragraph">
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[14.16px] left-0 text-[#024e44] text-[9.44px] top-[-0.49px] whitespace-nowrap" data-node-id="491:139">
+                                â‚¦1,200,000
+                              </p>
+                            </div>
+                          </div>
+                          <div className="h-[10.619px] relative shrink-0 w-[21.433px]" data-node-id="491:140" data-name="Paragraph">
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[10.62px] left-0 text-[#969aa0] text-[7.08px] top-[-0.49px] whitespace-nowrap" data-node-id="491:141">
+                                Target
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="h-[20.643px] relative shrink-0 w-[163.643px]" data-node-id="491:142" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[3.536px] items-start relative size-full">
+                        <div className="h-[12.39px] relative shrink-0 w-[200.01px]" data-node-id="491:143" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-start justify-between relative size-full">
+                            <div className="h-[12.392px] relative shrink-0 w-[105.476px]" data-node-id="491:144" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[12.39px] left-0 text-[#23262f] text-[8.26px] top-[0.1px] w-[105.61px]" data-node-id="491:145">
+                                  Your contribution: â‚¦30,333
+                                </p>
+                              </div>
+                            </div>
+                            <div className="h-[12.392px] relative shrink-0 w-[19.692px]" data-node-id="491:146" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[12.39px] left-0 text-[#90c841] text-[8.26px] top-[0.1px] w-[20.06px]" data-node-id="491:147">
+                                  40%
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="bg-[#e0e0e0] h-[4.72px] relative rounded-[5.9px] shrink-0 w-[200.01px]" data-node-id="491:148" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pr-[98.188px] relative size-full">
+                            <div className="bg-[#90c841] h-[4.715px] relative rounded-[5.9px] shrink-0 w-full" data-node-id="491:149" data-name="Container" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="h-[20.65px] relative shrink-0 w-[200.01px]" data-node-id="491:150" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-between relative size-full">
+                        <div className="h-[11.495px] relative shrink-0 w-[72.17px]" data-node-id="491:151" data-name="Paragraph">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                            <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.505px] left-0 text-[#969aa0] text-[7.67px] top-[-0.49px] w-[72.57px]" data-node-id="491:152">
+                              Next due: Jul 1, 2025
+                            </p>
+                          </div>
+                        </div>
+                        <div className="bg-[#024e44] h-[20.924px] relative rounded-[4.72px] shrink-0 w-[58.567px]" data-node-id="491:153" data-name="Button">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                            <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[11.505px] left-[9.43px] text-[7.67px] text-white top-[4.23px] whitespace-nowrap" data-node-id="491:154">
+                              Contribute
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute bg-[#f5f6fa] content-stretch flex flex-col gap-[9.43px] h-[114.46px] items-start left-0 pl-[11.798px] pt-[11.798px] rounded-[9.44px] top-[260.66px] w-[223.61px]" data-node-id="491:155" data-name="Container">
+                    <div className="h-[30.68px] relative shrink-0 w-[201.78px]" data-node-id="491:156" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-start justify-between relative size-full">
+                        <div className="h-[30.678px] relative shrink-0 w-[113.284px]" data-node-id="491:157" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[9.43px] items-center relative size-full">
+                            <div className="bg-[#e9ffc9] relative rounded-[14.75px] shrink-0 size-[29.5px]" data-node-id="491:158" data-name="Container">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-center relative size-full">
+                                <div className="h-[19.465px] relative shrink-0 w-[20.849px]" data-node-id="491:159" data-name="Paragraph">
+                                  <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                    <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[19.47px] left-0 text-[#024e44] text-[12.98px] top-[0.2px] whitespace-nowrap" data-node-id="491:160">
+                                      WF
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="h-[30.678px] relative shrink-0 w-[74.355px]" data-node-id="491:161" data-name="Container">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[2.357px] items-start relative size-full">
+                                <div className="h-[15.929px] relative shrink-0 w-[74.355px]" data-node-id="491:162" data-name="Paragraph">
+                                  <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                    <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[15.93px] left-0 text-[#23262f] text-[10.62px] top-[0.2px] whitespace-nowrap" data-node-id="491:163">
+                                      Wedding Fund
+                                    </p>
+                                  </div>
+                                </div>
+                                <div className="h-[12.392px] relative shrink-0 w-[74.355px]" data-node-id="491:164" data-name="Container">
+                                  <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[4.715px] items-center relative size-full">
+                                    <div className="h-[11.798px] relative shrink-0 w-[23.866px]" data-node-id="491:165" data-name="Container">
+                                      <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                        <div className="absolute content-stretch flex flex-col items-start left-0 rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:166" data-name="Container">
+                                          <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:167" data-name="Image">
+                                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage} />
+                                          </div>
+                                        </div>
+                                        <div className="absolute content-stretch flex flex-col items-start left-[6.03px] rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:168" data-name="Container">
+                                          <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:169" data-name="Image">
+                                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage1} />
+                                          </div>
+                                        </div>
+                                        <div className="absolute content-stretch flex flex-col items-start left-[12.07px] rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:170" data-name="Container">
+                                          <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:171" data-name="Image">
+                                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage2} />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div className="h-[12.392px] relative shrink-0 w-[43.99px]" data-node-id="491:172" data-name="Paragraph">
+                                      <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                        <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[12.39px] left-0 text-[#969aa0] text-[8.26px] top-[0.1px] w-[44.25px]" data-node-id="491:173">
+                                          6 members
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="h-[25.953px] relative shrink-0 w-[50.067px]" data-node-id="491:174" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[1.179px] items-end relative size-full">
+                            <div className="h-[14.155px] relative shrink-0 w-[50.067px]" data-node-id="491:175" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[14.16px] left-0 text-[#024e44] text-[9.44px] top-[-0.49px] whitespace-nowrap" data-node-id="491:176">
+                                  â‚¦800,000
+                                </p>
+                              </div>
+                            </div>
+                            <div className="h-[10.619px] relative shrink-0 w-[21.433px]" data-node-id="491:177" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[10.62px] left-0 text-[#969aa0] text-[7.08px] top-[-0.49px] whitespace-nowrap" data-node-id="491:178">
+                                  Target
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="h-[20.643px] relative shrink-0 w-[163.643px]" data-node-id="491:179" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[3.536px] items-start relative size-full">
+                        <div className="h-[12.39px] relative shrink-0 w-[201.19px]" data-node-id="491:180" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-start justify-between relative size-full">
+                            <div className="h-[12.392px] relative shrink-0 w-[107.466px]" data-node-id="491:181" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[12.39px] left-0 text-[#23262f] text-[8.26px] top-[0.1px] w-[107.97px]" data-node-id="491:182">
+                                  Your contribution: â‚¦65,000
+                                </p>
+                              </div>
+                            </div>
+                            <div className="h-[12.392px] relative shrink-0 w-[19.573px]" data-node-id="491:183" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[12.39px] left-0 text-[#90c841] text-[8.26px] top-[0.1px] w-[20.06px]" data-node-id="491:184">
+                                  80%
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="bg-[#e0e0e0] h-[4.72px] relative rounded-[5.9px] shrink-0 w-[201.19px]" data-node-id="491:185" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pr-[32.733px] relative size-full">
+                            <div className="bg-[#90c841] h-[4.715px] relative rounded-[5.9px] shrink-0 w-full" data-node-id="491:186" data-name="Container" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="h-[20.65px] relative shrink-0 w-[201.19px]" data-node-id="491:187" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-between relative size-full">
+                        <div className="h-[11.495px] relative shrink-0 w-[82.184px]" data-node-id="491:188" data-name="Paragraph">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                            <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.505px] left-0 text-[#969aa0] text-[7.67px] top-[-0.49px] w-[82.6px]" data-node-id="491:189">
+                              Next due: Jun 20, 2025
+                            </p>
+                          </div>
+                        </div>
+                        <div className="bg-[#024e44] h-[20.924px] relative rounded-[4.72px] shrink-0 w-[58.567px]" data-node-id="491:190" data-name="Button">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                            <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[11.505px] left-[9.43px] text-[7.67px] text-white top-[4.23px] whitespace-nowrap" data-node-id="491:191">
+                              Contribute
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute bg-[#f5f6fa] content-stretch flex flex-col gap-[9.429px] h-[143.37px] items-start left-0 pl-[11.798px] pt-[11.798px] rounded-[9.44px] top-[384.56px] w-[223.61px]" data-node-id="491:192" data-name="Container">
+                    <div className="h-[58.999px] relative shrink-0 w-[163.643px]" data-node-id="491:193" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                        <div className="absolute content-stretch flex gap-[9.43px] h-[58.999px] items-center left-0 top-0 w-[105.163px]" data-node-id="491:194" data-name="Container">
+                          <div className="bg-[#e9ffc9] h-[29.5px] relative rounded-[14.75px] shrink-0 w-[24.471px]" data-node-id="491:195" data-name="Container">
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-center pr-[0.011px] relative size-full">
+                              <div className="h-[19.465px] relative shrink-0 w-[17.367px]" data-node-id="491:196" data-name="Paragraph">
+                                <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                  <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[19.47px] left-0 text-[#024e44] text-[12.98px] top-[0.2px] whitespace-nowrap" data-node-id="491:197">
+                                    BS
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="h-[58.999px] relative shrink-0 w-[71.262px]" data-node-id="491:198" data-name="Container">
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[2.357px] items-start relative size-full">
+                              <div className="h-[31.857px] relative shrink-0 w-[71.262px]" data-node-id="491:199" data-name="Paragraph">
+                                <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                  <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[15.93px] left-0 text-[#23262f] text-[10.62px] top-[0.2px] w-[45.43px]" data-node-id="491:200">
+                                    Business Startup
+                                  </p>
+                                </div>
+                              </div>
+                              <div className="h-[24.785px] relative shrink-0 w-[71.262px]" data-node-id="491:201" data-name="Container">
+                                <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[4.715px] items-center relative size-full">
+                                  <div className="h-[11.798px] relative shrink-0 w-[23.866px]" data-node-id="491:202" data-name="Container">
+                                    <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                      <div className="absolute content-stretch flex flex-col items-start left-0 rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:203" data-name="Container">
+                                        <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:204" data-name="Image">
+                                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage} />
+                                        </div>
+                                      </div>
+                                      <div className="absolute content-stretch flex flex-col items-start left-[6.03px] rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:205" data-name="Container">
+                                        <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:206" data-name="Image">
+                                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage1} />
+                                        </div>
+                                      </div>
+                                      <div className="absolute content-stretch flex flex-col items-start left-[12.07px] rounded-[8.603px] size-[11.798px] top-0" data-node-id="491:207" data-name="Container">
+                                        <div className="h-[11.798px] relative rounded-[8.603px] shrink-0 w-full" data-node-id="491:208" data-name="Image">
+                                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8.603px] size-full" src={imgImage2} />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div className="flex-[1_0_0] h-[24.785px] min-w-px relative" data-node-id="491:209" data-name="Paragraph">
+                                    <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                      <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[12.39px] left-0 text-[#969aa0] text-[8.26px] top-[0.1px] w-[37.76px]" data-node-id="491:210">
+                                        15 members
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="absolute content-stretch flex flex-col gap-[1.179px] h-[25.953px] items-end left-[105.16px] top-0 w-[59.605px]" data-node-id="491:211" data-name="Container">
+                          <div className="h-[14.155px] relative shrink-0 w-[59.605px]" data-node-id="491:212" data-name="Paragraph">
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[14.16px] left-0 text-[#024e44] text-[9.44px] top-[-0.49px] whitespace-nowrap" data-node-id="491:213">
+                                â‚¦2,000,000
+                              </p>
+                            </div>
+                          </div>
+                          <div className="h-[10.619px] relative shrink-0 w-[21.433px]" data-node-id="491:214" data-name="Paragraph">
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[10.62px] left-0 text-[#969aa0] text-[7.08px] top-[-0.49px] whitespace-nowrap" data-node-id="491:215">
+                                Target
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="h-[20.643px] relative shrink-0 w-[163.643px]" data-node-id="491:216" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[3.536px] items-start relative size-full">
+                        <div className="h-[12.392px] relative shrink-0 w-[163.643px]" data-node-id="491:217" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-start justify-between relative size-full">
+                            <div className="h-[12.392px] relative shrink-0 w-[111.51px]" data-node-id="491:218" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[12.39px] left-0 text-[#23262f] text-[8.26px] top-[0.1px] w-[112.1px]" data-node-id="491:219">
+                                  Your contribution: â‚¦120,000
+                                </p>
+                              </div>
+                            </div>
+                            <div className="h-[12.392px] relative shrink-0 w-[18.47px]" data-node-id="491:220" data-name="Paragraph">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[12.39px] left-0 text-[#90c841] text-[8.26px] top-[0.1px] w-[18.88px]" data-node-id="491:221">
+                                  25%
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="bg-[#e0e0e0] h-[4.715px] relative rounded-[5.9px] shrink-0 w-[163.643px]" data-node-id="491:222" data-name="Container">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pr-[122.735px] relative size-full">
+                            <div className="bg-[#90c841] h-[4.715px] relative rounded-[5.9px] shrink-0 w-full" data-node-id="491:223" data-name="Container" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="h-[20.924px] relative shrink-0 w-[163.643px]" data-node-id="491:224" data-name="Container">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-between relative size-full">
+                        <div className="h-[11.495px] relative shrink-0 w-[77.48px]" data-node-id="491:225" data-name="Paragraph">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                            <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.505px] left-0 text-[#969aa0] text-[7.67px] top-[-0.49px] w-[77.88px]" data-node-id="491:226">
+                              Next due: Aug 1, 2025
+                            </p>
+                          </div>
+                        </div>
+                        <div className="bg-[#024e44] h-[20.924px] relative rounded-[4.72px] shrink-0 w-[58.567px]" data-node-id="491:227" data-name="Button">
+                          <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
+                            <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[11.505px] left-[9.43px] text-[7.67px] text-white top-[4.23px] whitespace-nowrap" data-node-id="491:228">
+                              Contribute
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute bg-[#024e44] h-[41.3px] left-[10.62px] overflow-clip rounded-[48.38px] top-[513.89px] w-[231.28px]" data-node-id="491:229">
+                  <div className="-translate-x-1/2 absolute content-stretch flex gap-[31.27px] items-center leading-[0] left-1/2 top-[10.03px]" data-node-id="491:230">
+                    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="491:231">
+                      <div className="col-1 ml-[1.18px] mt-0 relative row-1 size-[14.16px]" data-node-id="491:232" data-name="solar:home-2-outline">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarHome2Outline} />
+                      </div>
+                      <p className="[word-break:break-word] col-1 font-['Inter:Bold'] font-bold leading-[normal] ml-0 mt-[14.16px] not-italic relative row-1 text-[#90c841] text-[5.9px] tracking-[-0.118px] whitespace-nowrap" data-node-id="491:235">
+                        Home
+                      </p>
+                    </div>
+                    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="491:236">
+                      <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-0 mt-[14.16px] not-italic relative row-1 text-[5.9px] text-white tracking-[-0.118px] whitespace-nowrap" data-node-id="491:237">
+                        Group
+                      </p>
+                      <div className="col-1 ml-[1.18px] mt-0 overflow-clip relative row-1 size-[14.16px]" data-node-id="491:238" data-name="iconoir:group">
+                        <div className="absolute inset-[12.5%_4.16%_16.67%_4.17%]" data-node-id="491:239" data-name="Group">
+                          <div className="absolute inset-[-4.41%_-3.41%_-4.41%_-3.42%]">
+                            <img alt="" className="block max-w-none size-full" src={imgGroup} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="491:243">
+                      <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-0 mt-[14.16px] not-italic relative row-1 text-[5.9px] text-white tracking-[-0.118px] whitespace-nowrap" data-node-id="491:244">
+                        Transaction
+                      </p>
+                      <div className="col-1 ml-[8.85px] mt-0 overflow-clip relative row-1 size-[14.16px]" data-node-id="491:245" data-name="solar:money-bag-linear">
+                        <div className="absolute inset-[8.33%_8.33%_8.34%_8.34%]" data-node-id="491:246" data-name="Group">
+                          <div className="absolute inset-[-3.75%_-3.74%_-3.75%_-3.76%]">
+                            <img alt="" className="block max-w-none size-full" src={imgGroup1} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="491:249">
+                      <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-0 mt-[14.16px] not-italic relative row-1 text-[5.9px] text-white tracking-[-0.118px] whitespace-nowrap" data-node-id="491:250">
+                        Profile
+                      </p>
+                      <div className="col-1 ml-[1.18px] mt-0 overflow-clip relative row-1 size-[14.16px]" data-node-id="491:251" data-name="iconamoon:profile-light">
+                        <div className="absolute inset-[16.67%_16.67%_16.67%_16.66%]" data-node-id="491:252" data-name="Group">
+                          <div className="absolute inset-[-4.69%_-4.69%_-4.69%_-4.68%]">
+                            <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="-translate-x-1/2 absolute h-[25.96px] left-1/2 top-[5.9px] w-[225.38px]" data-node-id="491:255" data-name="Native / Status Bar">
+                  <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] left-[14.16px] not-italic text-[9.44px] text-[color:var(--text-color,#525252)] top-[calc(50%+1.46px)] whitespace-nowrap" data-node-id="491:256">
+                    <p className="leading-[9.44px]">9:41</p>
+                  </div>
+                  <div className="-translate-y-1/2 absolute h-[5.9px] right-[45.43px] top-[calc(50%+2.07px)] w-[10.62px]" data-node-id="491:257" data-name="Mobile Signal">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+                  </div>
+                  <div className="-translate-y-1/2 absolute h-[6.47px] right-[33.47px] top-[calc(50%+1.47px)] w-[9.011px]" data-node-id="491:263" data-name="Wifi">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+                  </div>
+                  <div className="-translate-y-1/2 absolute contents right-[14.17px] top-[calc(50%+1.48px)]" data-node-id="491:268" data-name="Battery">
+                    <div className="-translate-y-1/2 absolute h-[7.67px] right-[14.17px] top-[calc(50%+1.47px)] w-[15.918px]" data-node-id="491:269" data-name="Battery">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBattery} />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute left-[18.88px] size-[14.16px] top-[38.94px]" data-node-id="491:273" data-name="keyboard_backspace">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgKeyboardBackspace} />
+                </div>
+              </div>
+              <div className="absolute bg-[#010204] h-[18.88px] left-[98.53px] rounded-[10.62px] top-[15.34px] w-[77.88px]" data-node-id="491:276" data-name="Camera cutout" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+

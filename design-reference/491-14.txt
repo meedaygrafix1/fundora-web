@@ -1,0 +1,62 @@
+﻿const assetPathPrefix = "/assets";
+const imgGroup4273188641 = `${assetPathPrefix}/d2fcd.png`;
+const imgVector29 = `${assetPathPrefix}/62efb.svg`;
+const imgGroup1 = `${assetPathPrefix}/a92eb.svg`;
+
+export default function MobileHero() {
+  return (
+    <div className="bg-[#e8fccc] relative size-full" data-node-id="491:14" data-name="Mobile / Hero">
+      <div className="absolute h-[335.937px] left-[-90px] top-[40px] w-[829.26px]" data-node-id="491:15">
+        <div className="absolute inset-[-0.12%_-0.25%_-9.49%_0]">
+          <img alt="" className="block max-w-none size-full" src={imgVector29} />
+        </div>
+      </div>
+      <div className="absolute content-stretch flex h-[44px] items-center justify-between left-[24px] overflow-clip right-[24px] top-[24px]" data-node-id="491:16" data-name="Mobile / Navigation">
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="491:17">
+          <div className="col-1 h-[31.214px] ml-0 mt-0 relative row-1 w-[27.778px]" data-node-id="491:18">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Plus_Jakarta_Sans:Regular'] font-normal h-[28.212px] leading-[normal] ml-[33.91px] mt-[1.24px] relative row-1 text-[20.323px] text-black w-[88.619px]" data-node-id="491:27">
+            Fundora
+          </p>
+        </div>
+        <button className="bg-[#024e44] content-stretch cursor-pointer flex h-[48px] items-center justify-center overflow-clip relative rounded-[24px] shrink-0 w-[82px]" data-node-id="491:28" data-name="Button / Menu +">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.3] min-w-px relative text-[16px] text-center text-white" data-node-id="491:29">
+            Menu +
+          </p>
+        </button>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[22px] items-center left-[24px] overflow-clip right-[24px] top-[126px]" data-node-id="491:30" data-name="Mobile / Hero copy">
+        <div className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[0] relative shrink-0 text-[0px] text-black text-center tracking-[-1.7664px] w-full whitespace-pre-wrap" data-node-id="491:31">
+          <p className="mb-0">
+            <span className="leading-[40.71px] text-[44.16px]">{`Save `}</span>
+            <span className="[word-break:break-word] font-['Instrument_Serif:Italic'] italic leading-[40.71px] text-[#98b80b] text-[51.75px]">smarter</span>
+            <span className="leading-[40.71px] text-[44.16px]">{` `}</span>
+          </p>
+          <p className="leading-[40.71px] text-[44.16px]">with your people.</p>
+        </div>
+        <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.3] relative shrink-0 text-[#05211c] text-[17px] text-center w-full" data-node-id="491:32">
+          Fundora keeps your group savings transparent, timely, and easy to manage.
+        </p>
+        <div className="content-stretch cursor-pointer flex gap-[10px] h-[48px] items-start overflow-clip relative shrink-0 w-full" data-node-id="491:33" data-name="Mobile / Hero actions">
+          <button className="bg-[#024e44] content-stretch flex flex-[1_0_0] h-[48px] items-center justify-center min-w-px overflow-clip relative rounded-[24px]" data-node-id="491:34" data-name="Button / How it works">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.3] min-w-px relative text-[16px] text-center text-white" data-node-id="491:35">
+              How it works
+            </p>
+          </button>
+          <button className="bg-[#e8fccc] border border-[#024e44] border-solid content-stretch flex flex-[1_0_0] h-[48px] items-center justify-center min-w-px overflow-clip relative rounded-[24px]" data-node-id="491:36" data-name="Button / Features">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.3] min-w-px relative text-[#024e44] text-[16px] text-center" data-node-id="491:37">
+              Features
+            </p>
+          </button>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[236.64px] left-1/2 top-[405px] w-[519.18px]" data-node-id="491:38" data-name="Group 427318864 1">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[161.49%] left-0 max-w-none top-0 w-full" src={imgGroup4273188641} />
+        </div>
+      </div>
+    </div>
+  );
+}
+

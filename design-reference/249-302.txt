@@ -1,0 +1,112 @@
+﻿const assetPathPrefix = "/assets";
+const imgVector31 = `${assetPathPrefix}/36b57.svg`;
+const imgClarityArrowLine = `${assetPathPrefix}/a6cf6.svg`;
+const imgIsoconsGroupRoundedLeft = `${assetPathPrefix}/984b8.svg`;
+const imgVector32 = `${assetPathPrefix}/4a7a2.svg`;
+const imgIsoconsPersonAddRoundedLeft = `${assetPathPrefix}/7354c.svg`;
+const imgVector33 = `${assetPathPrefix}/6829e.svg`;
+const imgIsoconsReceiptLongRoundedLeft = `${assetPathPrefix}/591d3.svg`;
+
+export default function Frame2121453881() {
+  return (
+    <div className="content-stretch flex flex-col gap-[63px] items-center relative size-full" data-node-id="249:302">
+      <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[118px] relative shrink-0 text-[48px] text-black text-center tracking-[-1.92px] w-full" data-node-id="248:268">
+        Everything you need to achieve your group savings
+      </p>
+      <div className="content-stretch flex gap-[34px] items-center relative shrink-0 w-full" data-node-id="249:301">
+        <div className="bg-[#036e1a] h-[375px] overflow-clip relative rounded-[13px] shrink-0 w-[467px]" data-node-id="248:225">
+          <div className="absolute h-[135.652px] left-0 top-[254px] w-[417.295px]" data-node-id="248:262">
+            <div className="absolute inset-[-4.37%_0_-4.31%_-2.53%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector31} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium gap-[17px] items-start left-[47px] text-white top-[49px] w-[339px]" data-node-id="249:274">
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] leading-[118px] relative shrink-0 text-[36px] tracking-[-1.44px] w-full" data-node-id="249:271">
+              Create a Group
+            </p>
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] leading-[0] relative shrink-0 text-[20px] tracking-[-0.8px] w-full whitespace-pre-wrap" data-node-id="249:273">
+              <p className="leading-[normal] mb-0">{`Set up your contribution circle in `}</p>
+              <p className="leading-[normal]">seconds.</p>
+            </div>
+          </div>
+          <button className="absolute bg-white content-stretch cursor-pointer drop-shadow-[0px_171px_24px_rgba(0,0,0,0),0px_109px_22px_rgba(0,0,0,0.01),0px_62px_18.5px_rgba(0,0,0,0.05),0px_27px_13.5px_rgba(0,0,0,0.09),0px_7px_7.5px_rgba(0,0,0,0.1)] flex gap-[7px] items-center left-[47px] px-[49px] py-[13px] rounded-[30px] top-[281px]" data-node-id="249:283">
+            <p className="[word-break:break-word] font-['Geist:Light'] font-light leading-[normal] relative shrink-0 text-[#024e44] text-[24px] text-center tracking-[-0.96px] whitespace-nowrap" data-node-id="249:284">
+              Explore steps
+            </p>
+            <div className="flex items-center justify-center relative shrink-0 size-[25.378px]" data-node-id="249:285">
+              <div className="flex-none rotate-[40.53deg]">
+                <div className="relative size-[18px]" data-name="clarity:arrow-line">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgClarityArrowLine} />
+                </div>
+              </div>
+            </div>
+          </button>
+          <div className="absolute h-[112px] left-[329px] top-[158px] w-[106.4px]" data-node-id="501:14" data-name="Isocons / group / rounded-left">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIsoconsGroupRoundedLeft} />
+          </div>
+        </div>
+        <div className="bg-[#90c841] h-[375px] overflow-clip relative rounded-[13px] shrink-0 w-[467px]" data-node-id="248:226">
+          <div className="absolute h-[135.652px] left-0 top-[254px] w-[417.295px]" data-node-id="248:264">
+            <div className="absolute inset-[-4.37%_0_-4.31%_-2.53%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector32} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium gap-[17px] items-start left-[47px] text-black top-[49px] w-[339px]" data-node-id="249:275">
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] leading-[118px] relative shrink-0 text-[36px] tracking-[-1.44px] w-full" data-node-id="249:276">
+              Add Members
+            </p>
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] leading-[normal] relative shrink-0 text-[20px] tracking-[-0.8px] w-full" data-node-id="249:277">
+              Invite friends, classmates, or teammates instantly.
+            </p>
+          </div>
+          <button className="absolute bg-white content-stretch cursor-pointer drop-shadow-[0px_171px_24px_rgba(0,0,0,0),0px_109px_22px_rgba(0,0,0,0.01),0px_62px_18.5px_rgba(0,0,0,0.05),0px_27px_13.5px_rgba(0,0,0,0.09),0px_7px_7.5px_rgba(0,0,0,0.1)] flex gap-[7px] items-center left-[47px] px-[49px] py-[13px] rounded-[30px] top-[281px]" data-node-id="249:305">
+            <p className="[word-break:break-word] font-['Geist:Light'] font-light leading-[normal] relative shrink-0 text-[#024e44] text-[24px] text-center tracking-[-0.96px] whitespace-nowrap" data-node-id="249:306">
+              Explore steps
+            </p>
+            <div className="flex items-center justify-center relative shrink-0 size-[25.378px]" data-node-id="249:307">
+              <div className="flex-none rotate-[40.53deg]">
+                <div className="relative size-[18px]" data-name="clarity:arrow-line">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgClarityArrowLine} />
+                </div>
+              </div>
+            </div>
+          </button>
+          <div className="absolute h-[104.533px] left-[329px] top-[158px] w-[112px]" data-node-id="501:39" data-name="Isocons / person-add / rounded-left">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIsoconsPersonAddRoundedLeft} />
+          </div>
+        </div>
+        <div className="bg-[#024e44] h-[375px] overflow-clip relative rounded-[13px] shrink-0 w-[467px]" data-node-id="248:227">
+          <div className="absolute h-[135.652px] left-0 top-[254px] w-[417.295px]" data-node-id="248:266">
+            <div className="absolute inset-[-4.37%_0_-4.31%_-2.53%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector33} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium gap-[17px] items-start left-[47px] text-white top-[49px] w-[339px]" data-node-id="249:279">
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] leading-[118px] relative shrink-0 text-[36px] tracking-[-1.44px] w-full" data-node-id="249:280">
+              Track Payments
+            </p>
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] leading-[normal] relative shrink-0 text-[20px] tracking-[-0.8px] w-full" data-node-id="249:281">
+              Get reminders, verify payments, and stay organized automatically.
+            </p>
+          </div>
+          <button className="absolute bg-white content-stretch cursor-pointer drop-shadow-[0px_171px_24px_rgba(0,0,0,0),0px_109px_22px_rgba(0,0,0,0.01),0px_62px_18.5px_rgba(0,0,0,0.05),0px_27px_13.5px_rgba(0,0,0,0.09),0px_7px_7.5px_rgba(0,0,0,0.1)] flex gap-[7px] items-center left-[47px] px-[49px] py-[13px] rounded-[30px] top-[281px]" data-node-id="249:311">
+            <p className="[word-break:break-word] font-['Geist:Light'] font-light leading-[normal] relative shrink-0 text-[#024e44] text-[24px] text-center tracking-[-0.96px] whitespace-nowrap" data-node-id="249:312">
+              Explore steps
+            </p>
+            <div className="flex items-center justify-center relative shrink-0 size-[25.378px]" data-node-id="249:313">
+              <div className="flex-none rotate-[40.53deg]">
+                <div className="relative size-[18px]" data-name="clarity:arrow-line">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgClarityArrowLine} />
+                </div>
+              </div>
+            </div>
+          </button>
+          <div className="absolute h-[112px] left-[329px] top-[158px] w-[83.757px]" data-node-id="501:64" data-name="Isocons / receipt-long / rounded-left">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIsoconsReceiptLongRoundedLeft} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+

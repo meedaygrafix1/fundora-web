@@ -1,0 +1,67 @@
+﻿const assetPathPrefix = "/assets";
+const imgVector31 = `${assetPathPrefix}/c8c63.svg`;
+
+export default function MobileHowItWorks() {
+  return (
+    <div className="bg-white content-stretch flex flex-col gap-[18px] items-start pb-[48px] px-[24px] relative size-full" data-node-id="493:14" data-name="Mobile / How it works">
+      <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.3] relative shrink-0 text-[#024e44] text-[11px] w-full" data-node-id="493:15">
+        HOW FUNDORA WORKS
+      </p>
+      <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.3] relative shrink-0 text-[#05211c] text-[32px] w-full" data-node-id="493:16">
+        One goal. Everyone in sync.
+      </p>
+      <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.3] relative shrink-0 text-[#4d6159] text-[16px] w-full" data-node-id="493:17">
+        A simple flow from the first invite to every contribution.
+      </p>
+      <div className="bg-[#def5c2] content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[32px] pt-[24px] px-[24px] relative rounded-[18px] shrink-0 w-full" data-node-id="493:18" data-name="Mobile / Step 01">
+        <div className="absolute h-[97.522px] left-[130px] top-[180px] w-[300px]" data-node-id="493:22">
+          <div className="absolute inset-[-6.11%_-0.11%_-9.29%_-3.66%]">
+            <img alt="" className="block max-w-none size-full" src={imgVector31} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.3] min-w-full relative shrink-0 text-[#024e44] text-[38px] w-[min-content]" data-node-id="493:19">
+          01
+        </p>
+        <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.3] min-w-full relative shrink-0 text-[#05211c] text-[24px] w-[min-content]" data-node-id="493:20">
+          Create your group
+        </p>
+        <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.3] min-w-full relative shrink-0 text-[#4d6159] text-[16px] w-[min-content]" data-node-id="493:21">
+          Set a group name, target and contribution details so everyone knows the plan.
+        </p>
+      </div>
+      <div className="bg-[#e8fccc] content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[32px] pt-[24px] px-[24px] relative rounded-[18px] shrink-0 w-full" data-node-id="493:23" data-name="Mobile / Step 02">
+        <div className="absolute h-[97.522px] left-[130px] top-[180px] w-[300px]" data-node-id="493:27">
+          <div className="absolute inset-[-6.11%_-0.11%_-9.29%_-3.66%]">
+            <img alt="" className="block max-w-none size-full" src={imgVector31} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.3] min-w-full relative shrink-0 text-[#024e44] text-[38px] w-[min-content]" data-node-id="493:24">
+          02
+        </p>
+        <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.3] min-w-full relative shrink-0 text-[#05211c] text-[24px] w-[min-content]" data-node-id="493:25">
+          Invite your people
+        </p>
+        <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.3] min-w-full relative shrink-0 text-[#4d6159] text-[16px] w-[min-content]" data-node-id="493:26">
+          Add members and bring them into the same contribution circle.
+        </p>
+      </div>
+      <div className="bg-[#ebf7d4] content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[32px] pt-[24px] px-[24px] relative rounded-[18px] shrink-0 w-full" data-node-id="493:28" data-name="Mobile / Step 03">
+        <div className="absolute h-[97.522px] left-[130px] top-[180px] w-[300px]" data-node-id="493:32">
+          <div className="absolute inset-[-6.11%_-0.11%_-9.29%_-3.66%]">
+            <img alt="" className="block max-w-none size-full" src={imgVector31} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.3] min-w-full relative shrink-0 text-[#024e44] text-[38px] w-[min-content]" data-node-id="493:29">
+          03
+        </p>
+        <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.3] min-w-full relative shrink-0 text-[#05211c] text-[24px] w-[min-content]" data-node-id="493:30">
+          Contribute and track
+        </p>
+        <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.3] min-w-full relative shrink-0 text-[#4d6159] text-[16px] w-[min-content]" data-node-id="493:31">
+          See group progress, upcoming dues and activity as the goal moves forward.
+        </p>
+      </div>
+    </div>
+  );
+}
+

@@ -1,0 +1,362 @@
+﻿const assetPathPrefix = "/assets";
+const imgEllipse783 = `${assetPathPrefix}/67a2e.png`;
+const imgRectangle21 = `${assetPathPrefix}/6c8ea.png`;
+const imgRectangle22 = `${assetPathPrefix}/63ee4.png`;
+const imgRectangle23 = `${assetPathPrefix}/b00ca.png`;
+const imgSquigglePatternWallet = `${assetPathPrefix}/4c387.svg`;
+const imgVector27 = `${assetPathPrefix}/8a056.svg`;
+const imgVector28 = `${assetPathPrefix}/024da.svg`;
+const imgMobileSignal = `${assetPathPrefix}/b7e10.svg`;
+const imgWifi = `${assetPathPrefix}/f2c4d.svg`;
+const imgBattery = `${assetPathPrefix}/e5c63.svg`;
+const imgMdiBellNotification = `${assetPathPrefix}/6a8ad.svg`;
+const imgMdiLightEyeOff = `${assetPathPrefix}/a37ed.svg`;
+const imgGroup = `${assetPathPrefix}/66613.svg`;
+const imgVector = `${assetPathPrefix}/526f2.svg`;
+const imgSolarHome2Outline = `${assetPathPrefix}/a7926.svg`;
+const imgGroup1 = `${assetPathPrefix}/eef6c.svg`;
+const imgGroup2 = `${assetPathPrefix}/a062e.svg`;
+const imgGroup3 = `${assetPathPrefix}/c1a74.svg`;
+
+export default function Wallet() {
+  return (
+    <div className="bg-[#e8fccc] content-stretch flex items-center justify-between overflow-clip px-[105px] relative rounded-[28px] size-full" data-node-id="475:227" data-name="Wallet">
+      <div className="absolute flex h-[299.409px] items-center justify-center left-[-80px] top-[479.54px] w-[673.04px]" data-node-id="480:15">
+        <div className="-rotate-8 flex-none">
+          <div className="h-[211px] relative w-[650px]" data-name="Squiggle pattern / Wallet">
+            <div className="absolute inset-[-2.78%_0_-0.76%_-1.49%]">
+              <img alt="" className="block max-w-none size-full" src={imgSquigglePatternWallet} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="h-[770px] overflow-clip relative shrink-0 w-[520px]" data-node-id="478:222" data-name="Phone mockup / Wallet">
+        <div className="absolute bg-[#050609] h-[990px] left-[27px] overflow-clip rounded-[60px] shadow-[0px_26px_32px_0px_rgba(10,36,26,0.22)] top-[30px] w-[466px]" data-node-id="478:223" data-name="iPhone / Wallet">
+          <div className="absolute bg-white h-[932px] left-[18px] overflow-clip rounded-[47px] top-[18px] w-[430px]" data-node-id="478:224" data-name="Fundora app screen / Wallet">
+            <p className="[word-break:break-word] absolute font-['Space_Grotesk:Medium'] font-medium leading-[normal] left-[79px] text-[12.832px] text-white top-[470px] whitespace-nowrap" data-node-id="478:225">
+              â€‹
+            </p>
+            <div className="absolute bg-[#024e44] h-[380px] left-0 overflow-clip rounded-bl-[20px] rounded-br-[20px] top-0 w-[430px]" data-node-id="478:226">
+              <div className="absolute h-[145.752px] left-[-20.33px] top-[251.56px] w-[121.118px]" data-node-id="478:227">
+                <div className="absolute inset-[-24.47%_-6.71%_0_-1.66%]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector27} />
+                </div>
+              </div>
+              <div className="absolute h-[141.646px] left-[277.34px] top-[-42px] w-[197.073px]" data-node-id="478:228">
+                <div className="absolute inset-[-11.58%_0_-19.14%_-11%]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector28} />
+                </div>
+              </div>
+              <div className="-translate-x-1/2 absolute h-[44px] left-1/2 top-[10px] w-[382px]" data-node-id="478:229" data-name="Native / Status Bar">
+                <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] left-[24px] not-italic text-[16px] text-white top-[calc(50%+2px)] whitespace-nowrap" data-node-id="478:230">
+                  <p className="leading-[16px]">9:41</p>
+                </div>
+                <div className="-translate-y-1/2 absolute h-[10px] right-[77px] top-[calc(50%+3.5px)] w-[18px]" data-node-id="478:231" data-name="Mobile Signal">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+                </div>
+                <div className="-translate-y-1/2 absolute h-[10.966px] right-[56.73px] top-[calc(50%+2.48px)] w-[15.272px]" data-node-id="478:237" data-name="Wifi">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+                </div>
+                <div className="-translate-y-1/2 absolute contents right-[24.02px] top-[calc(50%+2.5px)]" data-node-id="478:242" data-name="Battery">
+                  <div className="-translate-y-1/2 absolute h-[13px] right-[24.02px] top-[calc(50%+2.5px)] w-[26.978px]" data-node-id="478:243" data-name="Battery">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBattery} />
+                  </div>
+                </div>
+              </div>
+              <div className="-translate-x-1/2 absolute content-stretch flex items-center justify-between left-[calc(50%-0.5px)] top-[75px] w-[341px]" data-node-id="478:247">
+                <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="478:248">
+                  <div className="relative shrink-0 size-[55px]" data-node-id="478:249">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" height="55" src={imgEllipse783} width="55" />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[1.257] relative shrink-0 w-[107px]" data-node-id="478:250">
+                    <p className="font-['Plus_Jakarta_Sans:Regular'] font-normal relative shrink-0 text-[#d1e76f] text-[15px] w-full" data-node-id="478:251">
+                      Good Morning,
+                    </p>
+                    <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[24px] text-white w-full" data-node-id="478:252">
+                      Olamide
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-[#d1e76f] content-stretch flex items-center justify-center px-[15px] py-[16px] relative rounded-[30px] shrink-0 size-[55px]" data-node-id="478:253">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="478:254" data-name="mdi:bell-notification">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMdiBellNotification} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute content-stretch flex flex-col items-center left-[90px] top-[187px] w-[250px]" data-node-id="478:256">
+                <div className="content-stretch flex items-center justify-center mb-[-6px] relative shrink-0" data-node-id="478:257">
+                  <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[1.257] relative shrink-0 text-[#90c841] text-[13px] w-[110px]" data-node-id="478:258">
+                    Available Balance
+                  </p>
+                  <div className="relative shrink-0 size-[24px]" data-node-id="478:259" data-name="mdi-light:eye-off">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMdiLightEyeOff} />
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[normal] min-w-full relative shrink-0 text-[48px] text-white w-[min-content]" data-node-id="478:261">
+                  â‚¦3000.05
+                </p>
+              </div>
+              <div className="-translate-x-1/2 absolute content-stretch flex gap-[12px] items-center left-[calc(50%-0.5px)] top-[296px]" data-node-id="478:262">
+                <div className="bg-[#d1e76f] content-stretch flex gap-[10px] items-center justify-center px-[10px] py-[15px] relative rounded-[10px] shrink-0" data-node-id="478:263">
+                  <div className="h-[16px] relative shrink-0 w-[20px]" data-node-id="478:264" data-name="Group">
+                    <div className="absolute inset-[-6.25%_-5%]">
+                      <img alt="" className="block max-w-none size-full" src={imgGroup} />
+                    </div>
+                  </div>
+                  <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium justify-end leading-[0] relative shrink-0 text-[#024e44] text-[16px] tracking-[0.24px] whitespace-nowrap" data-node-id="478:268">
+                    <p className="leading-[1.4]">Add money</p>
+                  </div>
+                </div>
+                <div className="bg-[#d1e76f] content-stretch flex gap-[10px] h-[46px] items-center justify-center px-[10px] py-[15px] relative rounded-[10px] shrink-0" data-node-id="478:269">
+                  <div className="h-[19.995px] relative shrink-0 w-[22px]" data-node-id="478:270" data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+                  </div>
+                  <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium justify-end leading-[0] relative shrink-0 text-[#024e44] text-[16px] tracking-[0.24px] whitespace-nowrap" data-node-id="478:271">
+                    <p className="leading-[1.4]">Send money</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 [word-break:break-word] absolute content-stretch flex items-center justify-between leading-[24.018px] left-[calc(50%-0.5px)] text-[#024e44] top-[417px] w-[371px] whitespace-nowrap" data-node-id="478:272">
+              <p className="font-['Plus_Jakarta_Sans:SemiBold'] font-semibold relative shrink-0 text-[18.3px] tracking-[0.2562px]" data-node-id="478:273">
+                Upcoming Dues
+              </p>
+              <p className="font-['Plus_Jakarta_Sans:Regular'] font-normal relative shrink-0 text-[14px] tracking-[0.196px]" data-node-id="478:274">{`View all>>>`}</p>
+            </div>
+            <div className="absolute content-stretch flex flex-col gap-[17px] items-start left-[29px] top-[473px] w-[374px]" data-node-id="478:275">
+              <div className="content-stretch flex flex-col gap-[14px] items-end relative shrink-0 w-full" data-node-id="478:276">
+                <div className="content-stretch flex gap-[79px] items-center relative shrink-0 w-full" data-node-id="478:277">
+                  <div className="content-stretch flex gap-[19px] items-start relative shrink-0" data-node-id="478:278">
+                    <div className="bg-[#e9ffc9] content-stretch flex flex-col items-center justify-center p-[12.022px] relative rounded-[27.5px] shrink-0 size-[44px]" data-node-id="478:279">
+                      <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Bold'] font-bold justify-center leading-[0] relative shrink-0 text-[#024e44] text-[20px] tracking-[0.28px] whitespace-nowrap" data-node-id="478:280">
+                        <p className="leading-[normal]">W</p>
+                      </div>
+                    </div>
+                    <div className="[word-break:break-word] content-stretch flex flex-col gap-[5px] items-start leading-[0] relative shrink-0 w-[111px]" data-node-id="478:281">
+                      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium justify-center relative shrink-0 text-[#23262f] text-[18.3px] tracking-[0.2562px] w-full" data-node-id="478:282">
+                        <p className="leading-[normal]">Wagmi</p>
+                      </div>
+                      <div className="flex flex-col font-['Plus_Jakarta_Sans:Regular'] font-normal justify-center relative shrink-0 text-[#969aa0] text-[16.012px] tracking-[0.4804px] w-full" data-node-id="478:283">
+                        <p className="leading-[22.875px]">3 Jun, 6:22 PM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[115px]" data-node-id="478:284">
+                    <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:SemiBold'] font-semibold justify-center leading-[0] min-w-full relative shrink-0 text-[#23262f] text-[18.3px] text-right tracking-[0.549px] w-[min-content]" data-node-id="478:285">
+                      <p className="leading-[normal]">{`â‚¦45,333.00 `}</p>
+                    </div>
+                    <div className="content-stretch flex items-center relative shrink-0" data-node-id="478:286">
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:287" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle21} />
+                      </div>
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:288" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle22} />
+                      </div>
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:289" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle23} />
+                      </div>
+                      <div className="bg-[#e9ffc9] content-stretch flex flex-col items-center justify-center p-[6.375px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:290">
+                        <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#024e44] text-[7.777px] tracking-[0.1089px] whitespace-nowrap" data-node-id="478:291">
+                          <p className="leading-[normal]">+4</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="border-[#f4f6f9] border-[1.144px] border-solid h-[1.144px] relative shrink-0 w-full" data-node-id="478:292" data-name="Rectangle" />
+              </div>
+              <div className="content-stretch flex flex-col gap-[14px] items-end relative shrink-0 w-full" data-node-id="478:293">
+                <div className="content-stretch flex gap-[79px] items-center relative shrink-0 w-full" data-node-id="478:294">
+                  <div className="content-stretch flex gap-[19px] items-start relative shrink-0" data-node-id="478:295">
+                    <div className="bg-[#e9ffc9] content-stretch flex flex-col items-center justify-center p-[12.022px] relative rounded-[27.5px] shrink-0 size-[44px]" data-node-id="478:296">
+                      <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Bold'] font-bold justify-center leading-[0] relative shrink-0 text-[#024e44] text-[20px] tracking-[0.28px] whitespace-nowrap" data-node-id="478:297">
+                        <p className="leading-[normal]">JT</p>
+                      </div>
+                    </div>
+                    <div className="[word-break:break-word] content-stretch flex flex-col gap-[5px] items-start leading-[0] relative shrink-0 w-[111px]" data-node-id="478:298">
+                      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium justify-center relative shrink-0 text-[#23262f] text-[18.3px] tracking-[0.2562px] w-full" data-node-id="478:299">
+                        <p className="leading-[normal]">Japan Trip</p>
+                      </div>
+                      <div className="flex flex-col font-['Plus_Jakarta_Sans:Regular'] font-normal justify-center relative shrink-0 text-[#969aa0] text-[16.012px] tracking-[0.4804px] w-full" data-node-id="478:300">
+                        <p className="leading-[22.875px]">3 Jun, 6:22 PM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[121px]" data-node-id="478:301">
+                    <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:SemiBold'] font-semibold justify-center leading-[0] relative shrink-0 text-[#23262f] text-[18.3px] text-right tracking-[0.549px] w-[119px]" data-node-id="478:302">
+                      <p className="leading-[normal]">{`â‚¦30,333.00 `}</p>
+                    </div>
+                    <div className="content-stretch flex items-center relative shrink-0" data-node-id="478:303">
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:304" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle21} />
+                      </div>
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:305" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle22} />
+                      </div>
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:306" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle23} />
+                      </div>
+                      <div className="bg-[#e9ffc9] content-stretch flex flex-col items-center justify-center p-[6.375px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:307">
+                        <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#024e44] text-[7.777px] tracking-[0.1089px] whitespace-nowrap" data-node-id="478:308">
+                          <p className="leading-[normal]">+4</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="border-[#f4f6f9] border-[1.144px] border-solid h-[1.144px] relative shrink-0 w-full" data-node-id="478:309" data-name="Rectangle" />
+              </div>
+              <div className="content-stretch flex flex-col gap-[14px] items-end relative shrink-0 w-full" data-node-id="478:310">
+                <div className="content-stretch flex gap-[79px] items-center relative shrink-0 w-full" data-node-id="478:311">
+                  <div className="content-stretch flex gap-[19px] items-start relative shrink-0" data-node-id="478:312">
+                    <div className="bg-[#e9ffc9] content-stretch flex flex-col items-center justify-center p-[12.022px] relative rounded-[27.5px] shrink-0 size-[44px]" data-node-id="478:313">
+                      <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Bold'] font-bold justify-center leading-[0] relative shrink-0 text-[#024e44] text-[20px] tracking-[0.28px] whitespace-nowrap" data-node-id="478:314">
+                        <p className="leading-[normal]">W</p>
+                      </div>
+                    </div>
+                    <div className="[word-break:break-word] content-stretch flex flex-col gap-[5px] items-start leading-[0] relative shrink-0 w-[111px]" data-node-id="478:315">
+                      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium justify-center relative shrink-0 text-[#23262f] text-[18.3px] tracking-[0.2562px] w-full" data-node-id="478:316">
+                        <p className="leading-[normal]">Wagmi</p>
+                      </div>
+                      <div className="flex flex-col font-['Plus_Jakarta_Sans:Regular'] font-normal justify-center relative shrink-0 text-[#969aa0] text-[16.012px] tracking-[0.4804px] w-full" data-node-id="478:317">
+                        <p className="leading-[22.875px]">3 Jun, 6:22 PM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[115px]" data-node-id="478:318">
+                    <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:SemiBold'] font-semibold justify-center leading-[0] min-w-full relative shrink-0 text-[#23262f] text-[18.3px] text-right tracking-[0.549px] w-[min-content]" data-node-id="478:319">
+                      <p className="leading-[normal]">{`â‚¦45,333.00 `}</p>
+                    </div>
+                    <div className="content-stretch flex items-center relative shrink-0" data-node-id="478:320">
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:321" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle21} />
+                      </div>
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:322" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle22} />
+                      </div>
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:323" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle23} />
+                      </div>
+                      <div className="bg-[#e9ffc9] content-stretch flex flex-col items-center justify-center p-[6.375px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:324">
+                        <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#024e44] text-[7.777px] tracking-[0.1089px] whitespace-nowrap" data-node-id="478:325">
+                          <p className="leading-[normal]">+4</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="border-[#f4f6f9] border-[1.144px] border-solid h-[1.144px] relative shrink-0 w-full" data-node-id="478:326" data-name="Rectangle" />
+              </div>
+              <div className="content-stretch flex flex-col gap-[14px] items-end relative shrink-0 w-full" data-node-id="478:327">
+                <div className="content-stretch flex gap-[79px] items-center relative shrink-0 w-full" data-node-id="478:328">
+                  <div className="content-stretch flex gap-[19px] items-start relative shrink-0" data-node-id="478:329">
+                    <div className="bg-[#e9ffc9] content-stretch flex flex-col items-center justify-center p-[12.022px] relative rounded-[27.5px] shrink-0 size-[44px]" data-node-id="478:330">
+                      <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Bold'] font-bold justify-center leading-[0] relative shrink-0 text-[#024e44] text-[20px] tracking-[0.28px] whitespace-nowrap" data-node-id="478:331">
+                        <p className="leading-[normal]">W</p>
+                      </div>
+                    </div>
+                    <div className="[word-break:break-word] content-stretch flex flex-col gap-[5px] items-start leading-[0] relative shrink-0 w-[111px]" data-node-id="478:332">
+                      <div className="flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium justify-center relative shrink-0 text-[#23262f] text-[18.3px] tracking-[0.2562px] w-full" data-node-id="478:333">
+                        <p className="leading-[normal]">Wagmi</p>
+                      </div>
+                      <div className="flex flex-col font-['Plus_Jakarta_Sans:Regular'] font-normal justify-center relative shrink-0 text-[#969aa0] text-[16.012px] tracking-[0.4804px] w-full" data-node-id="478:334">
+                        <p className="leading-[22.875px]">3 Jun, 6:22 PM</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[115px]" data-node-id="478:335">
+                    <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:SemiBold'] font-semibold justify-center leading-[0] min-w-full relative shrink-0 text-[#23262f] text-[18.3px] text-right tracking-[0.549px] w-[min-content]" data-node-id="478:336">
+                      <p className="leading-[normal]">{`â‚¦45,333.00 `}</p>
+                    </div>
+                    <div className="content-stretch flex items-center relative shrink-0" data-node-id="478:337">
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:338" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle21} />
+                      </div>
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:339" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle22} />
+                      </div>
+                      <div className="mr-[-9.774px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:340" data-name="Rectangle 2.1">
+                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[14.582px] size-full" src={imgRectangle23} />
+                      </div>
+                      <div className="bg-[#e9ffc9] content-stretch flex flex-col items-center justify-center p-[6.375px] relative rounded-[14.582px] shrink-0 size-[23.331px]" data-node-id="478:341">
+                        <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#024e44] text-[7.777px] tracking-[0.1089px] whitespace-nowrap" data-node-id="478:342">
+                          <p className="leading-[normal]">+4</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="border-[#f4f6f9] border-[1.144px] border-solid h-[1.144px] relative shrink-0 w-full" data-node-id="478:343" data-name="Rectangle" />
+              </div>
+            </div>
+            <div className="absolute bg-[#024e44] h-[70px] left-[24px] overflow-clip rounded-[82px] top-[838px] w-[392px]" data-node-id="478:344">
+              <div className="-translate-x-1/2 absolute content-stretch flex gap-[53px] items-center leading-[0] left-1/2 top-[17px]" data-node-id="478:345">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="478:346">
+                  <div className="col-1 ml-[2px] mt-0 relative row-1 size-[24px]" data-node-id="478:347" data-name="solar:home-2-outline">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarHome2Outline} />
+                  </div>
+                  <p className="[word-break:break-word] col-1 font-['Inter:Bold'] font-bold leading-[normal] ml-0 mt-[24px] not-italic relative row-1 text-[#90c841] text-[10px] tracking-[-0.2px] whitespace-nowrap" data-node-id="478:350">
+                    Home
+                  </p>
+                </div>
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="478:351">
+                  <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-0 mt-[24px] not-italic relative row-1 text-[10px] text-white tracking-[-0.2px] whitespace-nowrap" data-node-id="478:352">
+                    Group
+                  </p>
+                  <div className="col-1 ml-[2px] mt-0 overflow-clip relative row-1 size-[24px]" data-node-id="478:353" data-name="iconoir:group">
+                    <div className="absolute inset-[12.5%_4.17%_16.67%_4.17%]" data-node-id="478:354" data-name="Group">
+                      <div className="absolute inset-[-4.41%_-3.41%]">
+                        <img alt="" className="block max-w-none size-full" src={imgGroup1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="478:358">
+                  <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-0 mt-[24px] not-italic relative row-1 text-[10px] text-white tracking-[-0.2px] whitespace-nowrap" data-node-id="478:359">
+                    Transaction
+                  </p>
+                  <div className="col-1 ml-[15px] mt-0 overflow-clip relative row-1 size-[24px]" data-node-id="478:360" data-name="solar:money-bag-linear">
+                    <div className="absolute inset-[8.33%]" data-node-id="478:361" data-name="Group">
+                      <div className="absolute inset-[-3.75%]">
+                        <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="478:364">
+                  <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-0 mt-[24px] not-italic relative row-1 text-[10px] text-white tracking-[-0.2px] whitespace-nowrap" data-node-id="478:365">
+                    Profile
+                  </p>
+                  <div className="col-1 ml-[2px] mt-0 overflow-clip relative row-1 size-[24px]" data-node-id="478:366" data-name="iconamoon:profile-light">
+                    <div className="absolute inset-[16.67%]" data-node-id="478:367" data-name="Group">
+                      <div className="absolute inset-[-4.69%]">
+                        <img alt="" className="block max-w-none size-full" src={imgGroup3} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute bg-[#010204] h-[32px] left-[167px] rounded-[18px] top-[26px] w-[132px]" data-node-id="478:370" data-name="Camera cutout" />
+        </div>
+      </div>
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[26px] items-start leading-[1.25] overflow-clip relative shrink-0 w-[655px]" data-node-id="475:228" data-name="Story / Wallet">
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#024e44] text-[18px] w-[650px]" data-node-id="475:229">
+          FUNDORA / WALLET
+        </p>
+        <p className="font-['Plus_Jakarta_Sans:Medium'] font-medium relative shrink-0 text-[#05211c] text-[60px] tracking-[-1.8px] w-[650px]" data-node-id="475:230">
+          Add money your way.
+        </p>
+        <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[#4d6159] text-[25px] w-[620px]" data-node-id="475:231">
+          Keep funds ready for your next contribution. The app shows card payment and a personal bank transfer account.
+        </p>
+        <div className="content-stretch flex flex-col font-['Geist:Regular'] font-normal gap-[14px] items-start overflow-clip relative shrink-0 text-[#024e44] text-[21px] whitespace-pre-wrap" data-node-id="475:232" data-name="Highlights">
+          <p className="relative shrink-0 w-[620px]" data-node-id="475:233">{`â—  Card and bank transfer options`}</p>
+          <p className="relative shrink-0 w-[620px]" data-node-id="475:234">{`â—  Balance and upcoming dues at a glance`}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+

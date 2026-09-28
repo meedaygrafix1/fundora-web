@@ -1,0 +1,40 @@
+﻿const assetPathPrefix = "/assets";
+const imgSquigglePatternCta = `${assetPathPrefix}/5a957.svg`;
+const imgSquigglePatternCta1 = `${assetPathPrefix}/1c90d.svg`;
+
+export default function DownloadCallToAction() {
+  return (
+    <div className="bg-[#b0d954] content-stretch flex flex-col gap-[25px] items-center justify-center overflow-clip relative rounded-[28px] size-full" data-node-id="475:476" data-name="Download call to action">
+      <div className="absolute flex h-[296.502px] items-center justify-center left-[1050px] top-[198.01px] w-[643.967px]" data-node-id="480:18">
+        <div className="-rotate-9 flex-none">
+          <div className="h-[202px] relative w-[620px]" data-name="Squiggle pattern / CTA">
+            <div className="absolute inset-[-2.92%_0_-0.8%_-1.58%]">
+              <img alt="" className="block max-w-none size-full" src={imgSquigglePatternCta} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[286.321px] items-center justify-center left-[-128.11px] top-[305px] w-[642.079px]" data-node-id="480:17">
+        <div className="flex-none rotate-8">
+          <div className="h-[202px] relative w-[620px]" data-name="Squiggle pattern / CTA">
+            <div className="absolute inset-[-2.92%_0_-0.8%_-1.58%]">
+              <img alt="" className="block max-w-none size-full" src={imgSquigglePatternCta1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[1.25] relative shrink-0 text-[#05211c] text-[64px] text-center w-[1100px]" data-node-id="475:477">
+        Fundora is coming soon.
+      </p>
+      <p className="[word-break:break-word] font-['Geist:Light'] font-light leading-[1.25] relative shrink-0 text-[#05211c] text-[25px] text-center w-[1050px]" data-node-id="475:478">
+        Explore how it works today. App download will be available at launch.
+      </p>
+      <button className="bg-[#024e44] content-stretch cursor-pointer flex flex-col h-[62px] items-center justify-center overflow-clip relative rounded-[31px] shrink-0 w-[250px]" data-node-id="475:479" data-name="Get the app button">
+        <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[1.25] relative shrink-0 text-[24px] text-left text-white w-[180px]" data-node-id="475:480">
+          How it works â†—
+        </p>
+      </button>
+    </div>
+  );
+}
+

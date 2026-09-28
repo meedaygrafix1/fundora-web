@@ -1,0 +1,104 @@
+﻿const assetPathPrefix = "/assets";
+const imgGroup4273188641 = `${assetPathPrefix}/d2fcd.png`;
+const imgVector29 = `${assetPathPrefix}/04288.svg`;
+const imgClarityArrowLine = `${assetPathPrefix}/b8842.svg`;
+const imgGroup1 = `${assetPathPrefix}/ed652.svg`;
+
+export default function Frame2121453869() {
+  return (
+    <div className="bg-[#e9fdcc] overflow-clip relative rounded-[20px] size-full" data-node-id="228:6131">
+      <div className="absolute h-[1199.776px] left-[-177px] top-[-388px] w-[2961.643px]" data-node-id="228:6134">
+        <div className="absolute inset-[-0.12%_-0.25%_-9.49%_0]">
+          <img alt="" className="block max-w-none size-full" src={imgVector29} />
+        </div>
+      </div>
+      <div className="absolute flex h-[1199.776px] items-center justify-center left-[259px] top-[335px] w-[2961.643px]" data-node-id="228:6136">
+        <div className="-scale-y-100 flex-none">
+          <div className="h-[1199.776px] relative w-[2961.643px]">
+            <div className="absolute inset-[-0.12%_-0.25%_-9.49%_0]">
+              <img alt="" className="block max-w-none size-full" src={imgVector29} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[696px] left-1/2 top-[718px] w-[1527px]" data-node-id="228:6132" data-name="Group 427318864 1">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[161.49%] left-0 max-w-none top-0 w-full" src={imgGroup4273188641} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[40px] items-center left-1/2 top-[243px] w-[979px]" data-node-id="228:6174">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[44px] items-center relative shrink-0 text-black text-center w-full" data-node-id="228:6141">
+          <div className="font-['Plus_Jakarta_Sans:Medium'] font-medium leading-[0] relative shrink-0 text-[0px] tracking-[-5.12px] whitespace-nowrap" data-node-id="228:6137">
+            <p className="mb-0 whitespace-pre">
+              <span className="leading-[118px] text-[128px]">{`Save `}</span>
+              <span className="[word-break:break-word] font-['Instrument_Serif:Italic'] italic leading-[118px] text-[#98b80b] text-[150px]">smarter</span>
+              <span className="leading-[118px] text-[128px]">{` `}</span>
+            </p>
+            <p className="leading-[118px] text-[128px] whitespace-pre">with your people.</p>
+          </div>
+          <p className="font-['Geist:Light'] font-light leading-[27.702px] min-w-full relative shrink-0 text-[24px] w-[min-content]" data-node-id="228:6139">
+            Fundora keeps your group savings transparent, timely, and easy to manage.
+          </p>
+        </div>
+        <div className="content-stretch cursor-pointer flex gap-[9px] items-center relative shrink-0" data-node-id="228:6173">
+          <button className="bg-[#024e44] content-stretch flex gap-[7px] items-center px-[49px] py-[13px] relative rounded-[30px] shrink-0" data-node-id="228:6161">
+            <p className="[word-break:break-word] font-['Geist:Light'] font-light leading-[normal] relative shrink-0 text-[24px] text-center text-white tracking-[-0.96px] whitespace-nowrap" data-node-id="228:6154">
+              How it works
+            </p>
+            <div className="flex items-center justify-center relative shrink-0 size-[25.378px]" data-node-id="228:6175">
+              <div className="flex-none rotate-[40.53deg]">
+                <div className="relative size-[18px]" data-name="clarity:arrow-line">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgClarityArrowLine} />
+                </div>
+              </div>
+            </div>
+          </button>
+          <button className="border border-black border-solid content-stretch flex items-center px-[49px] py-[13px] relative rounded-[30px] shrink-0" data-node-id="228:6166">
+            <p className="[word-break:break-word] font-['Geist:Light'] font-light leading-[normal] relative shrink-0 text-[#024e44] text-[24px] text-center tracking-[-0.96px] whitespace-nowrap" data-node-id="228:6169">
+              Explore features
+            </p>
+          </button>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex items-center justify-between left-[166px] top-[56.69px] w-[1321.378px]" data-node-id="421:22">
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="228:6142">
+          <div className="col-1 h-[57.803px] ml-0 mt-0 relative row-1 w-[51.443px]" data-node-id="228:6143">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Plus_Jakarta_Sans:Regular'] font-normal h-[52.245px] leading-[normal] ml-[62.8px] mt-[2.3px] relative row-1 text-[37.634px] text-black w-[164.109px]" data-node-id="228:6152">
+            Fundora
+          </p>
+        </div>
+        <div className="[word-break:break-word] content-stretch cursor-pointer flex font-['Geist:Regular'] font-normal h-[58px] items-center justify-between leading-[0] overflow-clip relative shrink-0 text-[#05211c] text-[19px] text-left w-[515px]" data-node-id="484:14" data-name="Section navigation">
+          <button className="block relative shrink-0 w-[86px]" data-node-id="484:15">
+            <p className="leading-[1.2]">Features</p>
+          </button>
+          <button className="block relative shrink-0 w-[130px]" data-node-id="484:17">
+            <p className="leading-[1.2]">How it works</p>
+          </button>
+          <button className="block relative shrink-0 w-[135px]" data-node-id="484:19">
+            <p className="leading-[1.2]">Testimonials</p>
+          </button>
+          <button className="block relative shrink-0 w-[55px]" data-node-id="497:60">
+            <p className="leading-[1.3]">FAQ</p>
+          </button>
+        </div>
+        <div className="content-stretch flex items-center relative shrink-0" data-node-id="421:14">
+          <button className="bg-[#024e44] content-stretch cursor-pointer flex gap-[7px] items-center px-[49px] py-[13px] relative rounded-[30px] shrink-0" data-node-id="421:15">
+            <p className="[word-break:break-word] font-['Geist:Light'] font-light leading-[normal] relative shrink-0 text-[24px] text-center text-white tracking-[-0.96px] whitespace-nowrap" data-node-id="421:16">
+              How it works
+            </p>
+            <div className="flex items-center justify-center relative shrink-0 size-[25.378px]" data-node-id="421:17">
+              <div className="flex-none rotate-[40.53deg]">
+                <div className="relative size-[18px]" data-name="clarity:arrow-line">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgClarityArrowLine} />
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
